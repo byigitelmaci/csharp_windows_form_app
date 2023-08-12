@@ -1,0 +1,21 @@
+C:\Users\HUAWEI\source\repos\form dersleri 4\bin\Debug\form dersleri 4.exe.config
+C:\Users\HUAWEI\source\repos\form dersleri 4\bin\Debug\form dersleri 4.exe
+C:\Users\HUAWEI\source\repos\form dersleri 4\bin\Debug\form dersleri 4.pdb
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.Form1.resources
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.exe
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.pdb
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.zar_oyunu.resources
+C:\Users\HUAWEI\source\repos\form dersleri 4\bin\Debug\Interop.WMPLib.dll
+C:\Users\HUAWEI\source\repos\form dersleri 4\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\Interop.WMPLib.dll
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form dersleri 4.csproj.ResolveComReference.cache
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.linkle_müzik_koyma.resources
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.maçkolik1.resources
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.maçkolik2.resources
+C:\Users\HUAWEI\source\repos\form dersleri 4\obj\Debug\form_dersleri_4.sayac.resources

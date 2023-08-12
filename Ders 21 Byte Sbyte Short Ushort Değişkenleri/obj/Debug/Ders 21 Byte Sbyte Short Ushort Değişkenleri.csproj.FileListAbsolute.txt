@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\bin\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.exe.config
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\bin\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.exe
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\bin\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.pdb
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\obj\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\obj\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\obj\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\obj\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.exe
+C:\Users\HUAWEI\source\repos\Ders 21 Byte Sbyte Short Ushort Değişkenleri\obj\Debug\Ders 21 Byte Sbyte Short Ushort Değişkenleri.pdb

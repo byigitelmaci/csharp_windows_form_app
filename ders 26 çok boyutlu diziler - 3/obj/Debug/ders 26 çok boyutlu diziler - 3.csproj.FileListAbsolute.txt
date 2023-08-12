@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\bin\Debug\ders 26 çok boyutlu diziler - 3.exe.config
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\bin\Debug\ders 26 çok boyutlu diziler - 3.exe
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\bin\Debug\ders 26 çok boyutlu diziler - 3.pdb
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\obj\Debug\ders 26 çok boyutlu diziler - 3.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\obj\Debug\ders 26 çok boyutlu diziler - 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\obj\Debug\ders 26 çok boyutlu diziler - 3.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\obj\Debug\ders 26 çok boyutlu diziler - 3.exe
+C:\Users\HUAWEI\source\repos\ders 26 çok boyutlu diziler - 3\obj\Debug\ders 26 çok boyutlu diziler - 3.pdb

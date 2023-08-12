@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\deneme\bin\Debug\deneme.exe.config
+C:\Users\HUAWEI\source\repos\deneme\bin\Debug\deneme.exe
+C:\Users\HUAWEI\source\repos\deneme\bin\Debug\deneme.pdb
+C:\Users\HUAWEI\source\repos\deneme\obj\Debug\deneme.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\deneme\obj\Debug\deneme.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\deneme\obj\Debug\deneme.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\deneme\obj\Debug\deneme.exe
+C:\Users\HUAWEI\source\repos\deneme\obj\Debug\deneme.pdb

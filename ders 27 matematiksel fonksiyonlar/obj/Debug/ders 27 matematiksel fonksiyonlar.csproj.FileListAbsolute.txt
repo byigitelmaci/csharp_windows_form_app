@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\bin\Debug\ders 27 matematiksel fonksiyonlar.exe.config
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\bin\Debug\ders 27 matematiksel fonksiyonlar.exe
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\bin\Debug\ders 27 matematiksel fonksiyonlar.pdb
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\obj\Debug\ders 27 matematiksel fonksiyonlar.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\obj\Debug\ders 27 matematiksel fonksiyonlar.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\obj\Debug\ders 27 matematiksel fonksiyonlar.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\obj\Debug\ders 27 matematiksel fonksiyonlar.exe
+C:\Users\HUAWEI\source\repos\ders 27 matematiksel fonksiyonlar\obj\Debug\ders 27 matematiksel fonksiyonlar.pdb

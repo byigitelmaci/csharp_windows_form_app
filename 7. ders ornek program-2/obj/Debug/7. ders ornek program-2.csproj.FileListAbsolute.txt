@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\bin\Debug\_7.ders_ornek_program_2.exe.config
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\bin\Debug\_7.ders_ornek_program_2.exe
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\bin\Debug\_7.ders_ornek_program_2.pdb
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\obj\Debug\7. ders ornek program-2.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\obj\Debug\7. ders ornek program-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\obj\Debug\7. ders ornek program-2.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\obj\Debug\_7.ders_ornek_program_2.exe
+C:\Users\HUAWEI\source\repos\7. ders ornek program-2\obj\Debug\_7.ders_ornek_program_2.pdb

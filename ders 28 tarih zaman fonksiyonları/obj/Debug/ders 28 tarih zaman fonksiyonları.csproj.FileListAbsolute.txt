@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\bin\Debug\ders 28 tarih zaman fonksiyonları.exe.config
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\bin\Debug\ders 28 tarih zaman fonksiyonları.exe
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\bin\Debug\ders 28 tarih zaman fonksiyonları.pdb
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\obj\Debug\ders 28 tarih zaman fonksiyonları.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\obj\Debug\ders 28 tarih zaman fonksiyonları.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\obj\Debug\ders 28 tarih zaman fonksiyonları.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\obj\Debug\ders 28 tarih zaman fonksiyonları.exe
+C:\Users\HUAWEI\source\repos\ders 28 tarih zaman fonksiyonları\obj\Debug\ders 28 tarih zaman fonksiyonları.pdb

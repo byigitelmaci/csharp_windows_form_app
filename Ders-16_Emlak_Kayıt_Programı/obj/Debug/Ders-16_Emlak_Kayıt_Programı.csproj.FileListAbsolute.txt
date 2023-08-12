@@ -1,0 +1,17 @@
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\Ders-16_Emlak_Kayıt_Programı.exe.config
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\Ders-16_Emlak_Kayıt_Programı.exe
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\Ders-16_Emlak_Kayıt_Programı.pdb
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders_16_Emlak_Kayıt_Programı.Form1.resources
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders_16_Emlak_Kayıt_Programı.Form2.resources
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders_16_Emlak_Kayıt_Programı.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.exe
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.pdb
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\EntityFramework.dll
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\EntityFramework.xml
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HUAWEI\source\repos\Ders-16_Emlak_Kayıt_Programı\obj\Debug\Ders-16_Emlak_Kayıt_Programı.csproj.CopyComplete

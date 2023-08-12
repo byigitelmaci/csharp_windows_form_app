@@ -1,0 +1,13 @@
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\bin\Debug\form derleri6 double örnekleri.exe.config
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\bin\Debug\form derleri6 double örnekleri.exe
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\bin\Debug\form derleri6 double örnekleri.pdb
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form derleri6 double örnekleri.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form derleri6 double örnekleri.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form_derleri6_double_örnekleri.Form1.resources
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form_derleri6_double_örnekleri.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form derleri6 double örnekleri.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form derleri6 double örnekleri.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form derleri6 double örnekleri.exe
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form derleri6 double örnekleri.pdb
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form_derleri6_double_örnekleri.fibonacci.resources
+C:\Users\HUAWEI\source\repos\form derleri6 double örnekleri\obj\Debug\form_derleri6_double_örnekleri.ygs.resources

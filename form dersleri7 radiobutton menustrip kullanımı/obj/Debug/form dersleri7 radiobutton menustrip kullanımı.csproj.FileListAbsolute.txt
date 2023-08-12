@@ -1,0 +1,16 @@
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\bin\Debug\form dersleri7 radiobutton menustrip kullanımı.exe.config
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\bin\Debug\form dersleri7 radiobutton menustrip kullanımı.exe
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\bin\Debug\form dersleri7 radiobutton menustrip kullanımı.pdb
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form dersleri7 radiobutton menustrip kullanımı.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form dersleri7 radiobutton menustrip kullanımı.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.Form1.resources
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form dersleri7 radiobutton menustrip kullanımı.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form dersleri7 radiobutton menustrip kullanımı.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form dersleri7 radiobutton menustrip kullanımı.exe
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form dersleri7 radiobutton menustrip kullanımı.pdb
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.üs_alma.resources
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.saat_ve_dakika.resources
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.radio_button_örnek.resources
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.radiobutton_örnek2.resources
+C:\Users\HUAWEI\source\repos\form dersleri7 radiobutton menustrip kullanımı\obj\Debug\form_dersleri7_radiobutton_menustrip_kullanımı.menustrip_örneği.resources

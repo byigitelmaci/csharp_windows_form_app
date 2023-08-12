@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\bin\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.exe.config
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\bin\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.exe
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\bin\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.pdb
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\obj\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\obj\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\obj\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\obj\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.exe
+C:\Users\HUAWEI\source\repos\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama\obj\Debug\Ders 25 Çok Boyutlu Diziler - 2 Matrislerde Toplama.pdb

@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\karar yapıları-2\obj\Debug\karar yapıları-2.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\karar yapıları-2\obj\Debug\karar yapıları-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\karar yapıları-2\obj\Debug\karar yapıları-2.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\karar yapıları-2\bin\Debug\karar yapıları-2.exe.config
+C:\Users\HUAWEI\source\repos\karar yapıları-2\bin\Debug\karar yapıları-2.exe
+C:\Users\HUAWEI\source\repos\karar yapıları-2\bin\Debug\karar yapıları-2.pdb
+C:\Users\HUAWEI\source\repos\karar yapıları-2\obj\Debug\karar yapıları-2.exe
+C:\Users\HUAWEI\source\repos\karar yapıları-2\obj\Debug\karar yapıları-2.pdb

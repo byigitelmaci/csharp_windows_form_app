@@ -1,0 +1,13 @@
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\Ders_8_WebBrowser_kullanımı_ve_Genel_Tekrar_Uygulaması.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\Ders_8_WebBrowser_kullanımı_ve_Genel_Tekrar_Uygulaması.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.webbrowser.resources
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\Ders_8_WebBrowser_kullanımı_ve_Genel_Tekrar_Uygulaması.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\Ders_8_WebBrowser_kullanımı_ve_Genel_Tekrar_Uygulaması.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.istanbul_kocaeli_seyahat.resources
+C:\Users\HUAWEI\source\repos\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.istanbul_kocaeli_seyahat2.resources

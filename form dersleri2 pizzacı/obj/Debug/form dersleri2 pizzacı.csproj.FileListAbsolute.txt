@@ -1,0 +1,16 @@
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\bin\Debug\form dersleri2 pizzacı.exe.config
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\bin\Debug\form dersleri2 pizzacı.exe
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\bin\Debug\form dersleri2 pizzacı.pdb
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form dersleri2 pizzacı.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form dersleri2 pizzacı.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form dersleri2 pizzacı.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form dersleri2 pizzacı.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form dersleri2 pizzacı.exe
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form dersleri2 pizzacı.pdb
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.Form2.resources
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.pizzacı.resources
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.form3.resources
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.form4.resources
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.RenklerinDili.resources
+C:\Users\HUAWEI\source\repos\form dersleri2 pizzacı\obj\Debug\form_dersleri2_pizzacı.RenklerinDili2.resources

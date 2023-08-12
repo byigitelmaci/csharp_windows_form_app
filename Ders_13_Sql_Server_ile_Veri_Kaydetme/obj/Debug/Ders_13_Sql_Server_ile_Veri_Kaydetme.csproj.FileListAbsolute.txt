@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\bin\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.exe.config
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\bin\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.exe
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\bin\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.pdb
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.Form1.resources
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.exe
+C:\Users\HUAWEI\source\repos\Ders_13_Sql_Server_ile_Veri_Kaydetme\obj\Debug\Ders_13_Sql_Server_ile_Veri_Kaydetme.pdb

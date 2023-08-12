@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\double hesap makinesi\obj\Debug\double hesap makinesi.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\double hesap makinesi\obj\Debug\double hesap makinesi.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\double hesap makinesi\obj\Debug\double hesap makinesi.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\double hesap makinesi\bin\Debug\double hesap makinesi.exe.config
+C:\Users\HUAWEI\source\repos\double hesap makinesi\bin\Debug\double hesap makinesi.exe
+C:\Users\HUAWEI\source\repos\double hesap makinesi\bin\Debug\double hesap makinesi.pdb
+C:\Users\HUAWEI\source\repos\double hesap makinesi\obj\Debug\double hesap makinesi.exe
+C:\Users\HUAWEI\source\repos\double hesap makinesi\obj\Debug\double hesap makinesi.pdb

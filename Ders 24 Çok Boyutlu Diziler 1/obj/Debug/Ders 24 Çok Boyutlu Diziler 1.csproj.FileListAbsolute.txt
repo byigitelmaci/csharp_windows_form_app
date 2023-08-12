@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\bin\Debug\Ders 24 Çok Boyutlu Diziler 1.exe.config
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\bin\Debug\Ders 24 Çok Boyutlu Diziler 1.exe
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\bin\Debug\Ders 24 Çok Boyutlu Diziler 1.pdb
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\obj\Debug\Ders 24 Çok Boyutlu Diziler 1.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\obj\Debug\Ders 24 Çok Boyutlu Diziler 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\obj\Debug\Ders 24 Çok Boyutlu Diziler 1.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\obj\Debug\Ders 24 Çok Boyutlu Diziler 1.exe
+C:\Users\HUAWEI\source\repos\Ders 24 Çok Boyutlu Diziler 1\obj\Debug\Ders 24 Çok Boyutlu Diziler 1.pdb

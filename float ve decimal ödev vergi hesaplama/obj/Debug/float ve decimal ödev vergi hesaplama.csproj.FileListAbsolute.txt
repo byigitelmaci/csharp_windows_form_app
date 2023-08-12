@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\bin\Debug\float ve decimal ödev vergi hesaplama.exe.config
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\bin\Debug\float ve decimal ödev vergi hesaplama.exe
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\bin\Debug\float ve decimal ödev vergi hesaplama.pdb
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\obj\Debug\float ve decimal ödev vergi hesaplama.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\obj\Debug\float ve decimal ödev vergi hesaplama.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\obj\Debug\float ve decimal ödev vergi hesaplama.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\obj\Debug\float ve decimal ödev vergi hesaplama.exe
+C:\Users\HUAWEI\source\repos\float ve decimal ödev vergi hesaplama\obj\Debug\float ve decimal ödev vergi hesaplama.pdb

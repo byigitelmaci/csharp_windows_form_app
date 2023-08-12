@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\bin\Debug\_19.ders_float_değişkeni.exe.config
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\bin\Debug\_19.ders_float_değişkeni.exe
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\bin\Debug\_19.ders_float_değişkeni.pdb
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\obj\Debug\19. ders float değişkeni.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\obj\Debug\19. ders float değişkeni.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\obj\Debug\19. ders float değişkeni.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\obj\Debug\_19.ders_float_değişkeni.exe
+C:\Users\HUAWEI\source\repos\19. ders float değişkeni\obj\Debug\_19.ders_float_değişkeni.pdb

@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\bin\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.exe.config
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\bin\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.exe
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\bin\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.pdb
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C__Ders_12_Veri_Tabanı_Görüntüleme.Form1.resources
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C__Ders_12_Veri_Tabanı_Görüntüleme.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.exe
+C:\Users\HUAWEI\source\repos\C#_Ders_12-Veri_Tabanı_Görüntüleme\obj\Debug\C#_Ders_12-Veri_Tabanı_Görüntüleme.pdb

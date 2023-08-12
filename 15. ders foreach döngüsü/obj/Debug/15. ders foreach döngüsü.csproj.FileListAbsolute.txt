@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\bin\Debug\_15.ders_foreach_döngüsü.exe.config
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\bin\Debug\_15.ders_foreach_döngüsü.exe
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\bin\Debug\_15.ders_foreach_döngüsü.pdb
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\obj\Debug\15. ders foreach döngüsü.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\obj\Debug\15. ders foreach döngüsü.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\obj\Debug\15. ders foreach döngüsü.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\obj\Debug\_15.ders_foreach_döngüsü.exe
+C:\Users\HUAWEI\source\repos\15. ders foreach döngüsü\obj\Debug\_15.ders_foreach_döngüsü.pdb

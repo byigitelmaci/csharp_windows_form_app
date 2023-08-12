@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\not ortalaması\bin\Debug\not ortalaması.exe.config
+C:\Users\HUAWEI\source\repos\not ortalaması\bin\Debug\not ortalaması.exe
+C:\Users\HUAWEI\source\repos\not ortalaması\bin\Debug\not ortalaması.pdb
+C:\Users\HUAWEI\source\repos\not ortalaması\obj\Debug\not ortalaması.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\not ortalaması\obj\Debug\not ortalaması.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\not ortalaması\obj\Debug\not ortalaması.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\not ortalaması\obj\Debug\not ortalaması.exe
+C:\Users\HUAWEI\source\repos\not ortalaması\obj\Debug\not ortalaması.pdb

@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\bin\Debug\_20.ders_decimal_değişkeni.exe.config
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\bin\Debug\_20.ders_decimal_değişkeni.exe
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\bin\Debug\_20.ders_decimal_değişkeni.pdb
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\obj\Debug\20. ders decimal değişkeni.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\obj\Debug\20. ders decimal değişkeni.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\obj\Debug\20. ders decimal değişkeni.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\obj\Debug\_20.ders_decimal_değişkeni.exe
+C:\Users\HUAWEI\source\repos\20. ders decimal değişkeni\obj\Debug\_20.ders_decimal_değişkeni.pdb

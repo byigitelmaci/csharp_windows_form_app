@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\bin\Debug\_18.ders_char_değişkeni.exe.config
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\bin\Debug\_18.ders_char_değişkeni.exe
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\bin\Debug\_18.ders_char_değişkeni.pdb
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\obj\Debug\18. ders char değişkeni.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\obj\Debug\18. ders char değişkeni.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\obj\Debug\18. ders char değişkeni.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\obj\Debug\_18.ders_char_değişkeni.exe
+C:\Users\HUAWEI\source\repos\18. ders char değişkeni\obj\Debug\_18.ders_char_değişkeni.pdb

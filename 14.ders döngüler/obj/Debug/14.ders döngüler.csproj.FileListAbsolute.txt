@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\14.ders döngüler\bin\Debug\14.ders döngüler.exe.config
+C:\Users\HUAWEI\source\repos\14.ders döngüler\bin\Debug\14.ders döngüler.exe
+C:\Users\HUAWEI\source\repos\14.ders döngüler\bin\Debug\14.ders döngüler.pdb
+C:\Users\HUAWEI\source\repos\14.ders döngüler\obj\Debug\14.ders döngüler.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\14.ders döngüler\obj\Debug\14.ders döngüler.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\14.ders döngüler\obj\Debug\14.ders döngüler.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\14.ders döngüler\obj\Debug\14.ders döngüler.exe
+C:\Users\HUAWEI\source\repos\14.ders döngüler\obj\Debug\14.ders döngüler.pdb

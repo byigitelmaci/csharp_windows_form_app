@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\7. ders örnek program\bin\Debug\_7.ders_örnek_program.exe.config
+C:\Users\HUAWEI\source\repos\7. ders örnek program\bin\Debug\_7.ders_örnek_program.exe
+C:\Users\HUAWEI\source\repos\7. ders örnek program\bin\Debug\_7.ders_örnek_program.pdb
+C:\Users\HUAWEI\source\repos\7. ders örnek program\obj\Debug\7. ders örnek program.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\7. ders örnek program\obj\Debug\7. ders örnek program.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\7. ders örnek program\obj\Debug\7. ders örnek program.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\7. ders örnek program\obj\Debug\_7.ders_örnek_program.exe
+C:\Users\HUAWEI\source\repos\7. ders örnek program\obj\Debug\_7.ders_örnek_program.pdb

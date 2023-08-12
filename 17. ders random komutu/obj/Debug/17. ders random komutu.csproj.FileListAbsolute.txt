@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\17. ders random komutu\bin\Debug\_17.ders_random_komutu.exe.config
+C:\Users\HUAWEI\source\repos\17. ders random komutu\bin\Debug\_17.ders_random_komutu.exe
+C:\Users\HUAWEI\source\repos\17. ders random komutu\bin\Debug\_17.ders_random_komutu.pdb
+C:\Users\HUAWEI\source\repos\17. ders random komutu\obj\Debug\17. ders random komutu.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\17. ders random komutu\obj\Debug\17. ders random komutu.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\17. ders random komutu\obj\Debug\17. ders random komutu.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\17. ders random komutu\obj\Debug\_17.ders_random_komutu.exe
+C:\Users\HUAWEI\source\repos\17. ders random komutu\obj\Debug\_17.ders_random_komutu.pdb

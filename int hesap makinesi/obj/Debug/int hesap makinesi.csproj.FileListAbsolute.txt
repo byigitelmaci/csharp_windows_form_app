@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\int hesap makinesi\bin\Debug\int hesap makinesi.exe.config
+C:\Users\HUAWEI\source\repos\int hesap makinesi\bin\Debug\int hesap makinesi.exe
+C:\Users\HUAWEI\source\repos\int hesap makinesi\bin\Debug\int hesap makinesi.pdb
+C:\Users\HUAWEI\source\repos\int hesap makinesi\obj\Debug\int hesap makinesi.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\int hesap makinesi\obj\Debug\int hesap makinesi.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\int hesap makinesi\obj\Debug\int hesap makinesi.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\int hesap makinesi\obj\Debug\int hesap makinesi.exe
+C:\Users\HUAWEI\source\repos\int hesap makinesi\obj\Debug\int hesap makinesi.pdb

@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\11. ders dögüler\bin\Debug\_11.ders_dögüler.exe.config
+C:\Users\HUAWEI\source\repos\11. ders dögüler\bin\Debug\_11.ders_dögüler.exe
+C:\Users\HUAWEI\source\repos\11. ders dögüler\bin\Debug\_11.ders_dögüler.pdb
+C:\Users\HUAWEI\source\repos\11. ders dögüler\obj\Debug\11. ders döngüler.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\11. ders dögüler\obj\Debug\11. ders döngüler.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\11. ders dögüler\obj\Debug\11. ders döngüler.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\11. ders dögüler\obj\Debug\_11.ders_dögüler.exe
+C:\Users\HUAWEI\source\repos\11. ders dögüler\obj\Debug\_11.ders_dögüler.pdb

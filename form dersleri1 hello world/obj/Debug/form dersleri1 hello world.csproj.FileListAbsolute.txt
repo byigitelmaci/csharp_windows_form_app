@@ -1,0 +1,12 @@
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\bin\Debug\form dersleri1 hello world.exe.config
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\bin\Debug\form dersleri1 hello world.exe
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\bin\Debug\form dersleri1 hello world.pdb
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form dersleri1 hello world.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form dersleri1 hello world.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form_dersleri1_hello_world.Form1.resources
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form_dersleri1_hello_world.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form dersleri1 hello world.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form dersleri1 hello world.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form dersleri1 hello world.exe
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form dersleri1 hello world.pdb
+C:\Users\HUAWEI\source\repos\form dersleri1 hello world\obj\Debug\form_dersleri1_hello_world.HesapMakinesi.resources

@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\bin\Debug\Console Ders 22 Bool Değişkeni.exe.config
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\bin\Debug\Console Ders 22 Bool Değişkeni.exe
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\bin\Debug\Console Ders 22 Bool Değişkeni.pdb
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\obj\Debug\Console Ders 22 Bool Değişkeni.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\obj\Debug\Console Ders 22 Bool Değişkeni.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\obj\Debug\Console Ders 22 Bool Değişkeni.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\obj\Debug\Console Ders 22 Bool Değişkeni.exe
+C:\Users\HUAWEI\source\repos\Console Ders 22 Bool Değişkeni\obj\Debug\Console Ders 22 Bool Değişkeni.pdb

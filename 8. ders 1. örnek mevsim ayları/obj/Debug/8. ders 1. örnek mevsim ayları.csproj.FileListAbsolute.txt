@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\bin\Debug\_8.ders_1.örnek_mevsim_ayları.exe.config
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\bin\Debug\_8.ders_1.örnek_mevsim_ayları.exe
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\bin\Debug\_8.ders_1.örnek_mevsim_ayları.pdb
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\obj\Debug\8. ders 1. örnek mevsim ayları.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\obj\Debug\8. ders 1. örnek mevsim ayları.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\obj\Debug\8. ders 1. örnek mevsim ayları.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\obj\Debug\_8.ders_1.örnek_mevsim_ayları.exe
+C:\Users\HUAWEI\source\repos\8. ders 1. örnek mevsim ayları\obj\Debug\_8.ders_1.örnek_mevsim_ayları.pdb

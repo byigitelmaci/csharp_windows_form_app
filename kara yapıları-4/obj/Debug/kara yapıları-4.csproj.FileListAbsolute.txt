@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\kara yapıları-4\bin\Debug\kara yapıları-4.exe.config
+C:\Users\HUAWEI\source\repos\kara yapıları-4\bin\Debug\kara yapıları-4.exe
+C:\Users\HUAWEI\source\repos\kara yapıları-4\bin\Debug\kara yapıları-4.pdb
+C:\Users\HUAWEI\source\repos\kara yapıları-4\obj\Debug\kara yapıları-4.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\kara yapıları-4\obj\Debug\kara yapıları-4.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\kara yapıları-4\obj\Debug\kara yapıları-4.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\kara yapıları-4\obj\Debug\kara yapıları-4.exe
+C:\Users\HUAWEI\source\repos\kara yapıları-4\obj\Debug\kara yapıları-4.pdb

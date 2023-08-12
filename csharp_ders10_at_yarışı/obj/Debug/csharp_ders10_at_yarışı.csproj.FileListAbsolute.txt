@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\bin\Debug\csharp_ders10_at_yarışı.exe.config
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\bin\Debug\csharp_ders10_at_yarışı.exe
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\bin\Debug\csharp_ders10_at_yarışı.pdb
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.Form1.resources
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.exe
+C:\Users\HUAWEI\source\repos\csharp_ders10_at_yarışı\obj\Debug\csharp_ders10_at_yarışı.pdb

@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\source\repos\9. ders\bin\Debug\_9.ders.exe.config
+C:\Users\HUAWEI\source\repos\9. ders\bin\Debug\_9.ders.exe
+C:\Users\HUAWEI\source\repos\9. ders\bin\Debug\_9.ders.pdb
+C:\Users\HUAWEI\source\repos\9. ders\obj\Debug\9. ders.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\9. ders\obj\Debug\9. ders.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\9. ders\obj\Debug\9. ders.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\9. ders\obj\Debug\_9.ders.exe
+C:\Users\HUAWEI\source\repos\9. ders\obj\Debug\_9.ders.pdb

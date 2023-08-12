@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\bin\Debug\Ders-15 Sql Update Komutu(algoritma_örneği).exe.config
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\bin\Debug\Ders-15 Sql Update Komutu(algoritma_örneği).exe
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\bin\Debug\Ders-15 Sql Update Komutu(algoritma_örneği).pdb
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders-15 Sql Update Komutu.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders-15 Sql Update Komutu.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders_15_Sql_Update_Komutu_algoritma_örneği_.algoritma_örneği.resources
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders_15_Sql_Update_Komutu_algoritma_örneği_.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders-15 Sql Update Komutu.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders-15 Sql Update Komutu.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders-15 Sql Update Komutu(algoritma_örneği).exe
+C:\Users\HUAWEI\source\repos\Ders-15 Sql Update Komutu(algoritma_örneği)\obj\Debug\Ders-15 Sql Update Komutu(algoritma_örneği).pdb
