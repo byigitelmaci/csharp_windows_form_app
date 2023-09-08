@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\bin\Debug\ders21_blacjack_21.exe.config
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\bin\Debug\ders21_blacjack_21.exe
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\bin\Debug\ders21_blacjack_21.pdb
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.Form1.resources
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.exe
+C:\Users\HUAWEI\source\repos\ders21_blacjack_21\obj\Debug\ders21_blacjack_21.pdb

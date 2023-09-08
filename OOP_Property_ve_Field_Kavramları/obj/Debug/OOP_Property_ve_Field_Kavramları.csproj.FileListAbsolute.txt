@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\bin\Debug\OOP_Property_ve_Field_Kavramları.exe.config
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\bin\Debug\OOP_Property_ve_Field_Kavramları.exe
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\bin\Debug\OOP_Property_ve_Field_Kavramları.pdb
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.exe
+C:\Users\HUAWEI\source\repos\OOP_Property_ve_Field_Kavramları\obj\Debug\OOP_Property_ve_Field_Kavramları.pdb

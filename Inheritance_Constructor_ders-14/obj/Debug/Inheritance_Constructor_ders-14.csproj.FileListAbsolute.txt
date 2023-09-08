@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\bin\Debug\Inheritance_Constructor_ders-14.exe.config
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\bin\Debug\Inheritance_Constructor_ders-14.exe
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\bin\Debug\Inheritance_Constructor_ders-14.pdb
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders-14.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders-14.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders_14.Form1.resources
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders_14.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders-14.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders-14.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders-14.exe
+C:\Users\HUAWEI\source\repos\Inheritance_Constructor_ders-14\obj\Debug\Inheritance_Constructor_ders-14.pdb

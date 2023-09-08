@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\bin\Debug\Inheritence_BaseClass_Ders-15.exe.config
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\bin\Debug\Inheritence_BaseClass_Ders-15.exe
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\bin\Debug\Inheritence_BaseClass_Ders-15.pdb
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders-15.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders-15.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders_15.Form1.resources
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders_15.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders-15.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders-15.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders-15.exe
+C:\Users\HUAWEI\source\repos\Inheritence_BaseClass_Ders-15\obj\Debug\Inheritence_BaseClass_Ders-15.pdb

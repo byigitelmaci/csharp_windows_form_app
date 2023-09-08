@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\bin\Debug\OOP_Constructor_Örnek_ders7.exe.config
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\bin\Debug\OOP_Constructor_Örnek_ders7.exe
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\bin\Debug\OOP_Constructor_Örnek_ders7.pdb
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.exe
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Örnek_ders7\obj\Debug\OOP_Constructor_Örnek_ders7.pdb

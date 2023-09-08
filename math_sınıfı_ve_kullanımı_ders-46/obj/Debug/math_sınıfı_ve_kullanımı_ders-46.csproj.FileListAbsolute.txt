@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\bin\Debug\math_sınıfı_ve_kullanımı_ders-46.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\bin\Debug\math_sınıfı_ve_kullanımı_ders-46.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\bin\Debug\math_sınıfı_ve_kullanımı_ders-46.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders-46.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders-46.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders_46.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders_46.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders-46.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders-46.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders-46.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\math_sınıfı_ve_kullanımı_ders-46\obj\Debug\math_sınıfı_ve_kullanımı_ders-46.pdb

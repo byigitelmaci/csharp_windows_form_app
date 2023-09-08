@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\bin\Debug\OOP Nesne Üretmek ders1.exe.config
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\bin\Debug\OOP Nesne Üretmek ders1.exe
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\bin\Debug\OOP Nesne Üretmek ders1.pdb
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP Nesne Üretmek ders1.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP Nesne Üretmek ders1.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP_Nesne_Üretmek_ders1.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP_Nesne_Üretmek_ders1.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP Nesne Üretmek ders1.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP Nesne Üretmek ders1.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP Nesne Üretmek ders1.exe
+C:\Users\HUAWEI\source\repos\OOP Nesne Üretmek ders1\obj\Debug\OOP Nesne Üretmek ders1.pdb

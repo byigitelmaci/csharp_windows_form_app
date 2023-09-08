@@ -29,6 +29,7 @@ namespace not_ortalaması
             Console.WriteLine();
 
             Console.WriteLine("birinci sinavi giriniz");
+            
             sinav1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("ikinci sinavi giriniz");

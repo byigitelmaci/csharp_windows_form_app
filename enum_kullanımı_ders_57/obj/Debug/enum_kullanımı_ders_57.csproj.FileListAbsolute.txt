@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\bin\Debug\enum_kullanımı_ders_57.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\bin\Debug\enum_kullanımı_ders_57.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\bin\Debug\enum_kullanımı_ders_57.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\enum_kullanımı_ders_57\obj\Debug\enum_kullanımı_ders_57.pdb

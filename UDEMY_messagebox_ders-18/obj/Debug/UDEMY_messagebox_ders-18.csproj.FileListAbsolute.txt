@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\bin\Debug\UDEMY_messagebox_ders-18.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\bin\Debug\UDEMY_messagebox_ders-18.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\bin\Debug\UDEMY_messagebox_ders-18.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders-18.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders-18.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders_18.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders_18.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders-18.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders-18.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders-18.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\UDEMY_messagebox_ders-18\obj\Debug\UDEMY_messagebox_ders-18.pdb

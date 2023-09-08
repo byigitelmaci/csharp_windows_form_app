@@ -1,0 +1,10 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\bin\Debug\BLL1.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\bin\Debug\BLL1.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\bin\Debug\DAL1.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\bin\Debug\DAL1.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\obj\Debug\BLL1.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\obj\Debug\BLL1.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\obj\Debug\BLL1.csproj.CopyComplete
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\obj\Debug\BLL1.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\obj\Debug\BLL1.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLL1\bin\Debug\DAL1.dll.config

@@ -1,0 +1,13 @@
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\bin\Debug\Ders-18_Algoritmik_Örnekler.exe.config
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\bin\Debug\Ders-18_Algoritmik_Örnekler.exe
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\bin\Debug\Ders-18_Algoritmik_Örnekler.pdb
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders-18_Algoritmik_Örnekler.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders-18_Algoritmik_Örnekler.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders_18_Algoritmik_Örnekler.Form1.resources
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders_18_Algoritmik_Örnekler.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders-18_Algoritmik_Örnekler.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders-18_Algoritmik_Örnekler.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders-18_Algoritmik_Örnekler.exe
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders-18_Algoritmik_Örnekler.pdb
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders_18_Algoritmik_Örnekler.algoritmik_örnekler_2.resources
+C:\Users\HUAWEI\source\repos\Ders-18_Algoritmik_Örnekler\obj\Debug\Ders_18_Algoritmik_Örnekler.mükemmel_sayi_bulma.resources

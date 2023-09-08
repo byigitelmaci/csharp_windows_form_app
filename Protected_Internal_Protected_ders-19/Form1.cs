@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Protected_Internal_Protected_ders_19.models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace Protected_Internal_Protected_ders_19
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            deneme deneme = new deneme();
+            
+
         }
     }
 }

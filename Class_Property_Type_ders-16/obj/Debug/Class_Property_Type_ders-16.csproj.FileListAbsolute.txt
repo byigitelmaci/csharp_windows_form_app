@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\bin\Debug\Class_Property_Type_ders-16.exe.config
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\bin\Debug\Class_Property_Type_ders-16.exe
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\bin\Debug\Class_Property_Type_ders-16.pdb
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders-16.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders-16.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders_16.Form1.resources
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders_16.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders-16.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders-16.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders-16.exe
+C:\Users\HUAWEI\source\repos\Class_Property_Type_ders-16\obj\Debug\Class_Property_Type_ders-16.pdb

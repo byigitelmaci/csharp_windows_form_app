@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\bin\Debug\OOP-2Kalıtım.exe.config
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\bin\Debug\OOP-2Kalıtım.exe
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\bin\Debug\OOP-2Kalıtım.pdb
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP-2Kalıtım.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP-2Kalıtım.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP_2Kalıtım.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP_2Kalıtım.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP-2Kalıtım.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP-2Kalıtım.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP-2Kalıtım.exe
+C:\Users\HUAWEI\source\repos\OOP-2Kalıtım\obj\Debug\OOP-2Kalıtım.pdb

@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP-3_Kapsülleme.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP-3_Kapsülleme.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP_3_Kapsülleme.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP_3_Kapsülleme.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP-3_Kapsülleme.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP-3_Kapsülleme.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\bin\Debug\OOP-3_Kapsülleme.exe.config
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\bin\Debug\OOP-3_Kapsülleme.exe
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\bin\Debug\OOP-3_Kapsülleme.pdb
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP-3_Kapsülleme.exe
+C:\Users\HUAWEI\source\repos\OOP-3_Kapsülleme\obj\Debug\OOP-3_Kapsülleme.pdb

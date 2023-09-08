@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\bin\Debug\Partial_ve_Sealed_Class_ders-56.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\bin\Debug\Partial_ve_Sealed_Class_ders-56.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\bin\Debug\Partial_ve_Sealed_Class_ders-56.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders-56.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders-56.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders_56.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders_56.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders-56.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders-56.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders-56.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Partial_ve_Sealed_Class_ders-56\obj\Debug\Partial_ve_Sealed_Class_ders-56.pdb

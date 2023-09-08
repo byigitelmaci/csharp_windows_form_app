@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\bin\Debug\ders_anlatıcam2.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\bin\Debug\ders_anlatıcam2.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\bin\Debug\ders_anlatıcam2.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam2\obj\Debug\ders_anlatıcam2.pdb

@@ -1,0 +1,9 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\bin\Debug\BLLL.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\bin\Debug\BLLL.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\bin\Debug\DALLL.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\bin\Debug\DALLL.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\obj\Debug\BLLL.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\obj\Debug\BLLL.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\obj\Debug\BLLL.csproj.CopyComplete
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\obj\Debug\BLLL.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\BLLL\obj\Debug\BLLL.pdb

@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\bin\Debug\while-do_while_döngüleri_ders_36.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\bin\Debug\while-do_while_döngüleri_ders_36.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\bin\Debug\while-do_while_döngüleri_ders_36.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while-do_while_döngüleri_ders_36.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while-do_while_döngüleri_ders_36.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while_do_while_döngüleri_ders_36.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while_do_while_döngüleri_ders_36.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while-do_while_döngüleri_ders_36.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while-do_while_döngüleri_ders_36.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while-do_while_döngüleri_ders_36.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\while-do_while_döngüleri_ders_36\obj\Debug\while-do_while_döngüleri_ders_36.pdb

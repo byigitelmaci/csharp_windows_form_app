@@ -1,0 +1,6 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\DALLL\bin\Debug\DALLL.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\DALLL\bin\Debug\DALLL.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\DALLL\obj\Debug\DALLL.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\DALLL\obj\Debug\DALLL.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\DALLL\obj\Debug\DALLL.dll
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\DALLL\obj\Debug\DALLL.pdb

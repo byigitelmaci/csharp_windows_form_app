@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\bin\Debug\interface_örneği_ders23.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\bin\Debug\interface_örneği_ders23.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\bin\Debug\interface_örneği_ders23.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\interface_örneği_ders23\obj\Debug\interface_örneği_ders23.pdb

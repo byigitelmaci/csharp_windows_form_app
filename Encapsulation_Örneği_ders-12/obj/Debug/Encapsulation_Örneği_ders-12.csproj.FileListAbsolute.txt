@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\bin\Debug\Encapsulation_Örneği_ders-12.exe.config
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\bin\Debug\Encapsulation_Örneği_ders-12.exe
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\bin\Debug\Encapsulation_Örneği_ders-12.pdb
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders-12.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders-12.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders_12.Form1.resources
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders_12.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders-12.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders-12.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders-12.exe
+C:\Users\HUAWEI\source\repos\Encapsulation_Örneği_ders-12\obj\Debug\Encapsulation_Örneği_ders-12.pdb

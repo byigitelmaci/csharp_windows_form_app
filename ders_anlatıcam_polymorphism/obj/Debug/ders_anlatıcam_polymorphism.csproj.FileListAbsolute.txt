@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\bin\Debug\ders_anlatıcam_polymorphism.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\bin\Debug\ders_anlatıcam_polymorphism.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\bin\Debug\ders_anlatıcam_polymorphism.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\ders_anlatıcam_polymorphism\obj\Debug\ders_anlatıcam_polymorphism.pdb

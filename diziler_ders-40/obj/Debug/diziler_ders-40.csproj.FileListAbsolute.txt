@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\bin\Debug\diziler_ders-40.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\bin\Debug\diziler_ders-40.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\bin\Debug\diziler_ders-40.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders-40.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders-40.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders_40.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders_40.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders-40.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders-40.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders-40.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\diziler_ders-40\obj\Debug\diziler_ders-40.pdb

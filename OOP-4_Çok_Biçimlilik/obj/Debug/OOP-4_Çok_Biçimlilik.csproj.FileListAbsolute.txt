@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\bin\Debug\OOP-4_Çok_Biçimlilik.exe.config
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\bin\Debug\OOP-4_Çok_Biçimlilik.exe
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\bin\Debug\OOP-4_Çok_Biçimlilik.pdb
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP-4_Çok_Biçimlilik.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP-4_Çok_Biçimlilik.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP_4_Çok_Biçimlilik.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP_4_Çok_Biçimlilik.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP-4_Çok_Biçimlilik.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP-4_Çok_Biçimlilik.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP-4_Çok_Biçimlilik.exe
+C:\Users\HUAWEI\source\repos\OOP-4_Çok_Biçimlilik\obj\Debug\OOP-4_Çok_Biçimlilik.pdb

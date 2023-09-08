@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ders_anlatılıcak_erişim_belirteçleri", "ders_anlatılıcak_erişim_belirteçleri.csproj", "{90C9E1F7-A915-4344-827D-AABA07CF1B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "örnek1", "..\örnek1\örnek1.csproj", "{443B5ADE-C6CB-405C-86D4-91B33009ABCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C9E1F7-A915-4344-827D-AABA07CF1B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C9E1F7-A915-4344-827D-AABA07CF1B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C9E1F7-A915-4344-827D-AABA07CF1B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C9E1F7-A915-4344-827D-AABA07CF1B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443B5ADE-C6CB-405C-86D4-91B33009ABCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443B5ADE-C6CB-405C-86D4-91B33009ABCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443B5ADE-C6CB-405C-86D4-91B33009ABCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443B5ADE-C6CB-405C-86D4-91B33009ABCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8804D222-922F-40CD-A8B1-807ED86FDFEE}
+	EndGlobalSection
+EndGlobal

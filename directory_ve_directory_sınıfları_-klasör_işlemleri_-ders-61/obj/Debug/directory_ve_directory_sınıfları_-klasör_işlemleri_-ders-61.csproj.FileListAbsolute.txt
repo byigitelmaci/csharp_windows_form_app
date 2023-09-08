@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\bin\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\bin\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\bin\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları__klasör_işlemleri__ders_61.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları__klasör_işlemleri__ders_61.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61\obj\Debug\directory_ve_directory_sınıfları_-klasör_işlemleri_-ders-61.pdb

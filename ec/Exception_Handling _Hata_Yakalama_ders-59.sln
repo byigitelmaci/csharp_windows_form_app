@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception_Handling _Hata_Yakalama_ders-59", "Exception_Handling _Hata_Yakalama_ders-59.csproj", "{81DDF6E8-5628-4831-AABE-A41DE8820322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81DDF6E8-5628-4831-AABE-A41DE8820322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDF6E8-5628-4831-AABE-A41DE8820322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDF6E8-5628-4831-AABE-A41DE8820322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDF6E8-5628-4831-AABE-A41DE8820322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E600BFEE-CFBB-48D6-8F12-A121B52A97BD}
+	EndGlobalSection
+EndGlobal

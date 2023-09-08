@@ -1,0 +1,10 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\bin\Debug\Personel_Takip_Uygulaması.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\bin\Debug\Personel_Takip_Uygulaması.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\bin\Debug\Personel_Takip_Uygulaması.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.FrmLogin.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Personel_Takip_Uygulaması\obj\Debug\Personel_Takip_Uygulaması.pdb

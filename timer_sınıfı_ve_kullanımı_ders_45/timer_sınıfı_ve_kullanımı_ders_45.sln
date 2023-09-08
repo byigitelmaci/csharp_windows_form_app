@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timer_sınıfı_ve_kullanımı_ders_45", "timer_sınıfı_ve_kullanımı_ders_45.csproj", "{814CDEE4-D3A8-400F-BF80-F5368E018B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{814CDEE4-D3A8-400F-BF80-F5368E018B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814CDEE4-D3A8-400F-BF80-F5368E018B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814CDEE4-D3A8-400F-BF80-F5368E018B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814CDEE4-D3A8-400F-BF80-F5368E018B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F12BBA6-F101-48EC-8B02-3AD067E89148}
+	EndGlobalSection
+EndGlobal

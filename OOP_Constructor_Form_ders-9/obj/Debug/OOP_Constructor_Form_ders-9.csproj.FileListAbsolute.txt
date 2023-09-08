@@ -1,0 +1,12 @@
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\bin\Debug\OOP_Constructor_Form_ders-9.exe.config
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\bin\Debug\OOP_Constructor_Form_ders-9.exe
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\bin\Debug\OOP_Constructor_Form_ders-9.pdb
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders-9.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders-9.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders_9.Form1.resources
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders_9.Form2.resources
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders_9.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders-9.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders-9.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders-9.exe
+C:\Users\HUAWEI\source\repos\OOP_Constructor_Form_ders-9\obj\Debug\OOP_Constructor_Form_ders-9.pdb

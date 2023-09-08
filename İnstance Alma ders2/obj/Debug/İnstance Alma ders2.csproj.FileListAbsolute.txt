@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\bin\Debug\İnstance Alma ders2.exe.config
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\bin\Debug\İnstance Alma ders2.exe
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\bin\Debug\İnstance Alma ders2.pdb
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance Alma ders2.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance Alma ders2.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance_Alma_ders2.Form1.resources
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance_Alma_ders2.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance Alma ders2.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance Alma ders2.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance Alma ders2.exe
+C:\Users\HUAWEI\source\repos\İnstance Alma ders2\obj\Debug\İnstance Alma ders2.pdb

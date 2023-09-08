@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\bin\Debug\atlama_ifadeleri_ders-38.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\bin\Debug\atlama_ifadeleri_ders-38.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\bin\Debug\atlama_ifadeleri_ders-38.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders-38.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders-38.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders_38.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders_38.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders-38.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders-38.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders-38.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\atlama_ifadeleri_ders-38\obj\Debug\atlama_ifadeleri_ders-38.pdb

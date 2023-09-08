@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\bin\Debug\datetıme_picker_ders26.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\bin\Debug\datetıme_picker_ders26.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\bin\Debug\datetıme_picker_ders26.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\datetıme_picker_ders26\obj\Debug\datetıme_picker_ders26.pdb

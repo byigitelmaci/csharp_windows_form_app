@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\bin\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.exe.config
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\bin\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.exe
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\bin\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.pdb
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.Form1.resources
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.exe
+C:\Users\HUAWEI\source\repos\Ders_19_Diziler_ve_Foreach_Döngüsü\obj\Debug\Ders_19_Diziler_ve_Foreach_Döngüsü.pdb

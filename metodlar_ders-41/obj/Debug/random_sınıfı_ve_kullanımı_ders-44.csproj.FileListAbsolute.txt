@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\bin\Debug\metodlar_ders-41.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\bin\Debug\metodlar_ders-41.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\bin\Debug\metodlar_ders-41.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\random_sınıfı_ve_kullanımı_ders-44.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\random_sınıfı_ve_kullanımı_ders-44.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\metodlar_ders_41.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\metodlar_ders_41.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\random_sınıfı_ve_kullanımı_ders-44.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\random_sınıfı_ve_kullanımı_ders-44.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\metodlar_ders-41.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\metodlar_ders-41\obj\Debug\metodlar_ders-41.pdb

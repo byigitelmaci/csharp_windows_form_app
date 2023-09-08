@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\source\repos\hjvf\bin\Debug\hjvf.exe.config
+C:\Users\HUAWEI\source\repos\hjvf\bin\Debug\hjvf.exe
+C:\Users\HUAWEI\source\repos\hjvf\bin\Debug\hjvf.pdb
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.Form1.resources
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.exe
+C:\Users\HUAWEI\source\repos\hjvf\obj\Debug\hjvf.pdb

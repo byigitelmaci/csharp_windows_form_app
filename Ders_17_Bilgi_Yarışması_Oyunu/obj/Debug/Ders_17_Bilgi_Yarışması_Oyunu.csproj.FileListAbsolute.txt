@@ -1,0 +1,12 @@
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\bin\Debug\Ders_17_Bilgi_Yarışması_Oyunu.exe.config
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\bin\Debug\Ders_17_Bilgi_Yarışması_Oyunu.exe
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\bin\Debug\Ders_17_Bilgi_Yarışması_Oyunu.pdb
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.Form1.resources
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.Form2.resources
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.exe
+C:\Users\HUAWEI\source\repos\Ders_17_Bilgi_Yarışması_Oyunu\obj\Debug\Ders_17_Bilgi_Yarışması_Oyunu.pdb
