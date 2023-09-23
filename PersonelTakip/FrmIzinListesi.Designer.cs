@@ -31,6 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnTemizle = new System.Windows.Forms.Button();
+            this.btnAra = new System.Windows.Forms.Button();
             this.txtsure = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.cmbizindurum = new System.Windows.Forms.ComboBox();
@@ -62,7 +63,6 @@
             this.btnguncelle = new System.Windows.Forms.Button();
             this.btnekle = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnAra = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -110,6 +110,18 @@
             this.btnTemizle.TabIndex = 52;
             this.btnTemizle.Text = "temizle";
             this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
+            // 
+            // btnAra
+            // 
+            this.btnAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAra.Location = new System.Drawing.Point(535, 155);
+            this.btnAra.Name = "btnAra";
+            this.btnAra.Size = new System.Drawing.Size(157, 63);
+            this.btnAra.TabIndex = 51;
+            this.btnAra.Text = "ara";
+            this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
             // 
             // txtsure
             // 
@@ -118,7 +130,6 @@
             this.txtsure.Name = "txtsure";
             this.txtsure.Size = new System.Drawing.Size(226, 32);
             this.txtsure.TabIndex = 49;
-            this.txtsure.TextChanged += new System.EventHandler(this.txtsure_TextChanged);
             this.txtsure.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtsure_KeyPress);
             // 
             // label10
@@ -264,6 +275,7 @@
             this.cmbdepartman.Name = "cmbdepartman";
             this.cmbdepartman.Size = new System.Drawing.Size(245, 34);
             this.cmbdepartman.TabIndex = 44;
+            this.cmbdepartman.SelectedIndexChanged += new System.EventHandler(this.cmbdepartman_SelectedIndexChanged);
             // 
             // txtsoyad
             // 
@@ -328,7 +340,6 @@
             this.txtUserNo.Name = "txtUserNo";
             this.txtUserNo.Size = new System.Drawing.Size(245, 32);
             this.txtUserNo.TabIndex = 38;
-            this.txtUserNo.TextChanged += new System.EventHandler(this.txtUserNo_TextChanged);
             this.txtUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUserNo_KeyPress);
             // 
             // label1
@@ -364,6 +375,7 @@
             this.btnReddet.TabIndex = 27;
             this.btnReddet.Text = "reddet";
             this.btnReddet.UseVisualStyleBackColor = true;
+            this.btnReddet.Click += new System.EventHandler(this.btnReddet_Click);
             // 
             // btnOnayla
             // 
@@ -374,6 +386,7 @@
             this.btnOnayla.TabIndex = 26;
             this.btnOnayla.Text = "Onayla";
             this.btnOnayla.UseVisualStyleBackColor = true;
+            this.btnOnayla.Click += new System.EventHandler(this.btnOnayla_Click);
             // 
             // btnkapat
             // 
@@ -395,6 +408,7 @@
             this.btnsil.TabIndex = 24;
             this.btnsil.Text = "sil";
             this.btnsil.UseVisualStyleBackColor = true;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
             // 
             // btnguncelle
             // 
@@ -420,24 +434,17 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 335);
+            this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1245, 287);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // btnAra
-            // 
-            this.btnAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAra.Location = new System.Drawing.Point(535, 155);
-            this.btnAra.Name = "btnAra";
-            this.btnAra.Size = new System.Drawing.Size(157, 63);
-            this.btnAra.TabIndex = 51;
-            this.btnAra.Text = "ara";
-            this.btnAra.UseVisualStyleBackColor = true;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // FrmIzinListesi
             // 
@@ -450,6 +457,7 @@
             this.Name = "FrmIzinListesi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmIzinListesi";
+            this.Load += new System.EventHandler(this.FrmIzinListesi_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

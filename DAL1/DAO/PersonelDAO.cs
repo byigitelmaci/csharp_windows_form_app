@@ -75,6 +75,89 @@ namespace DAL1.DAO
             return liste;
         }
 
+        public static List<PERSONEL> personelGetir(int v, string text)
+        {
+            return db.PERSONELs.Where(x=> x.UserNo == v && x.Password == text).ToList();
+        }
+
+        public static void PersonelGuncelle(PozisyonDetayDTO detay)
+        {
+            List<PERSONEL> list = db.PERSONELs.Where(x=> x.PozisyonID == detay.ID).ToList();
+            foreach (var item in list)
+            {
+                item.DepartmanID = detay.DepartmanID;
+            }
+            db.SubmitChanges();
+        }
+
+        public static void PersonelGuncelle(PersonelDetayDTO pr)
+        {
+            try
+            {
+                PERSONEL per = db.PERSONELs.First(x => x.ID == pr.PersoneID);
+                per.UserNo = pr.UserNO;
+                per.Ad=pr.Ad;
+                per.Adres=pr.Adres;
+                per.DepartmanID= pr.DepartmanID;
+                per.DogumGunu = pr.DogumTarihi;
+                per.isAdmin = pr.isadmin;
+                per.Maas = pr.Maas;
+                per.Password = pr.password;
+                per.PozisyonID = pr.PozisyonID;
+                per.Resim = pr.Resim;
+                per.Soyad = pr.Soyad;
+                db.SubmitChanges();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+
+
+        public static void PersonelMaasGuncelle(MaasDetayDTO maas)
+        {
+            try
+            {
+                PERSONEL pr = db.PERSONELs.First(x => x.ID == maas.PersoneID);
+                pr.Maas = maas.MaasMiktar;
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+             
+        }
+
+        public static void PersonelSil(int personeID)
+        {
+            try
+            {
+                List<IZIN> iz = db.IZINs.Where(x=> x.PersonelID==personeID).ToList();
+                db.IZINs.DeleteAllOnSubmit(iz);
+                db.SubmitChanges();
+                List<I> iss = db.Is.Where(x=>x.PersonelID == personeID).ToList();
+                db.Is.DeleteAllOnSubmit(iss);
+                db.SubmitChanges();
+                List<MAASST> maas = db.MAASSTs.Where(x=> x.PersonelID== personeID).ToList();
+                db.MAASSTs.DeleteAllOnSubmit(maas);
+                db.SubmitChanges();
+                PERSONEL pr = db.PERSONELs.First(x => x.ID == personeID);
+                db.PERSONELs.DeleteOnSubmit(pr);
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public class PersonelGetir : List<PERSONEL>
         {
         }

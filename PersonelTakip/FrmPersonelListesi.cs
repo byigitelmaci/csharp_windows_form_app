@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DAL1.DTO;
 using BLL1;
+using System.IO;
 
 namespace PersonelTakip
 {
@@ -36,20 +37,35 @@ namespace PersonelTakip
         {
             FrmPersonelBilgileri frm = new FrmPersonelBilgileri();
             this.Hide();
+            frm.isUpdate = true;
             frm.ShowDialog();
-            this.Visible = true;    
+            this.Visible = true;
+            combofull = false;
+            temizle();
+            doldur();
         }
 
         private void btngüncelle_Click(object sender, EventArgs e)
         {
             FrmPersonelBilgileri frm = new FrmPersonelBilgileri();
             this.Hide();
+            frm.isUpdate = true;
+            frm.detay = detay;
             frm.ShowDialog();
             this.Visible = true;
+            combofull = false;
+            temizle();
+            doldur(); 
         }
         PersonelDTO dto = new PersonelDTO();
+        PersonelDetayDTO detay = new PersonelDetayDTO();
         bool combofull = false;
         private void FrmPersonelListesi_Load(object sender, EventArgs e)
+        {
+            doldur();
+        }
+
+        private void doldur()
         {
             dto = PersonelBLL.GetAll();
             dataGridView1.DataSource = dto.Personeller;
@@ -66,9 +82,9 @@ namespace PersonelTakip
             dataGridView1.Columns[10].Visible = false;
             dataGridView1.Columns[11].Visible = false;
             dataGridView1.Columns[12].Visible = false;
-            dataGridView1.Columns[13].Visible = false; 
+            dataGridView1.Columns[13].Visible = false;
             cmbDepartman.DataSource = dto.Departmanlar;
-            cmbDepartman.DisplayMember = "DepartmanAd";   
+            cmbDepartman.DisplayMember = "DepartmanAd";
             cmbDepartman.ValueMember = "ID";
             cmbDepartman.SelectedIndex = -1;
             if (dto.Departmanlar.Count > 0)
@@ -77,11 +93,6 @@ namespace PersonelTakip
             cmbpozisyon.DisplayMember = "PozisyonAd";
             cmbpozisyon.ValueMember = "ID";
             cmbpozisyon.SelectedIndex = -1;
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void cmbDepartman_SelectedIndexChanged(object sender, EventArgs e)
@@ -113,6 +124,12 @@ namespace PersonelTakip
 
         private void btntemizle_Click(object sender, EventArgs e)
         {
+            temizle();
+            
+        }
+
+        private void temizle()
+        {
             txtad.Clear();
             txtSoyad.Clear();
             txtUserNo.Clear();
@@ -120,7 +137,40 @@ namespace PersonelTakip
             cmbpozisyon.DataSource = dto.Pozisyonlar;
             cmbpozisyon.SelectedIndex = -1;
             dataGridView1.DataSource = dto.Personeller;
-            
+        }
+
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detay.PersoneID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
+            detay.Ad = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            detay.Soyad = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            detay.UserNO = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Value);
+            detay.DepartmanID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[6].Value);
+            detay.PozisyonID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[7].Value);
+            detay.Maas = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[8].Value);
+            detay.password = dataGridView1.Rows[e.RowIndex].Cells[9].Value.ToString();
+            detay.isadmin = Convert.ToBoolean(dataGridView1.Rows[e.RowIndex].Cells[10].Value);
+            detay.Resim = dataGridView1.Rows[e.RowIndex].Cells[11].Value.ToString();
+            detay.Adres = dataGridView1.Rows[e.RowIndex].Cells[12].Value.ToString();
+            detay.DogumTarihi = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells[13].Value);
+
+
+
+        }
+
+        private void btnsil_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Silinsinmi?", "Dikkat", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                PersonelBLL.PersonelSil(detay.PersoneID);
+                string resimyol = Application.StartupPath + "\\resimler\\" + detay.Resim;
+                File.Delete(resimyol);
+                MessageBox.Show("Silindi");
+                combofull = false;
+                doldur();
+                temizle();
+            }
         }
     }
 }

@@ -33,5 +33,20 @@ namespace BLL1
         {
             PersonelDAO.PersonelEkle(pr);
         }
+
+        public static List<PERSONEL> PersonelGetir(int v, string text)
+        {
+            return PersonelDAO.personelGetir(v, text);
+        }
+
+        public static void PersonelGuncelle(PersonelDetayDTO pr)
+        {
+            PersonelDAO.PersonelGuncelle(pr);
+        }
+
+        public static void PersonelSil(int personeID)
+        {
+            PersonelDAO.PersonelSil(personeID);
+        }
     }
 }

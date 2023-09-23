@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL1;
+using DAL1.DTO;
+using DAL1;
 
 namespace PersonelTakip
 {
@@ -35,16 +38,34 @@ namespace PersonelTakip
             Application.Exit();
         }
 
-        private void txtUserNo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btngiris_Click(object sender, EventArgs e)
         {
-            FrmMain frm = new FrmMain();
-            this.Hide();
-            frm.ShowDialog();
+            if (txtUserNo.Text.Trim() == "")
+                MessageBox.Show("Kullanıcı No Boş");
+            else if (txtPassword.Text.Trim()=="")
+                MessageBox.Show("Şifre Boş");
+            else
+            {
+                List<PERSONEL> list = PersonelBLL.PersonelGetir(Convert.ToInt32(txtUserNo.Text),txtPassword.Text);
+                if (list.Count <=0)
+                    MessageBox.Show("Kullanıcı Adı Ve Şifre Hatalı");
+                else
+                {
+
+                    PERSONEL per = list.First();
+                    UserStatic.PersonelID = per.ID;
+                    UserStatic.isAdmin = per.isAdmin;
+                    UserStatic.UserNo = per.UserNo;
+                    FrmMain frm = new FrmMain();
+                    this.Hide();
+                    frm.ShowDialog();
+                }
+            }
+
+
+            
         }
     }
 }

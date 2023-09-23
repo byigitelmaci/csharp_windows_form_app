@@ -29,13 +29,17 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.cmbpozisyon = new System.Windows.Forms.ComboBox();
+            this.cmbdepartman = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.btnKapat = new System.Windows.Forms.Button();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cmbAylar = new System.Windows.Forms.ComboBox();
+            this.txtyıl = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtmaas = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -45,13 +49,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtUserNo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbpozisyon = new System.Windows.Forms.ComboBox();
-            this.cmbdepartman = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,6 +63,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(297, 615);
             this.panel1.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 216);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(297, 399);
+            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // panel2
             // 
@@ -76,16 +89,44 @@
             this.panel2.Size = new System.Drawing.Size(297, 216);
             this.panel2.TabIndex = 0;
             // 
-            // dataGridView1
+            // cmbpozisyon
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 216);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(297, 399);
-            this.dataGridView1.TabIndex = 1;
+            this.cmbpozisyon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbpozisyon.FormattingEnabled = true;
+            this.cmbpozisyon.Location = new System.Drawing.Point(29, 166);
+            this.cmbpozisyon.Name = "cmbpozisyon";
+            this.cmbpozisyon.Size = new System.Drawing.Size(245, 34);
+            this.cmbpozisyon.TabIndex = 43;
+            // 
+            // cmbdepartman
+            // 
+            this.cmbdepartman.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbdepartman.FormattingEnabled = true;
+            this.cmbdepartman.Location = new System.Drawing.Point(29, 62);
+            this.cmbdepartman.Name = "cmbdepartman";
+            this.cmbdepartman.Size = new System.Drawing.Size(245, 34);
+            this.cmbdepartman.TabIndex = 41;
+            this.cmbdepartman.SelectedIndexChanged += new System.EventHandler(this.cmbdepartman_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(23, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 31);
+            this.label4.TabIndex = 40;
+            this.label4.Text = "Departman";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(23, 120);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(125, 31);
+            this.label5.TabIndex = 42;
+            this.label5.Text = "Pozisyon";
             // 
             // btnKapat
             // 
@@ -107,6 +148,7 @@
             this.btnKaydet.TabIndex = 56;
             this.btnKaydet.Text = "kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // label8
             // 
@@ -118,22 +160,22 @@
             this.label8.TabIndex = 55;
             this.label8.Text = "Maaş Ay";
             // 
-            // comboBox1
+            // cmbAylar
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(220, 274);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(245, 34);
-            this.comboBox1.TabIndex = 54;
+            this.cmbAylar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbAylar.FormattingEnabled = true;
+            this.cmbAylar.Location = new System.Drawing.Point(220, 274);
+            this.cmbAylar.Name = "cmbAylar";
+            this.cmbAylar.Size = new System.Drawing.Size(245, 34);
+            this.cmbAylar.TabIndex = 54;
             // 
-            // textBox1
+            // txtyıl
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(220, 346);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(245, 30);
-            this.textBox1.TabIndex = 53;
+            this.txtyıl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtyıl.Location = new System.Drawing.Point(220, 346);
+            this.txtyıl.Name = "txtyıl";
+            this.txtyıl.Size = new System.Drawing.Size(245, 30);
+            this.txtyıl.TabIndex = 53;
             // 
             // label7
             // 
@@ -220,44 +262,6 @@
             this.label1.TabIndex = 44;
             this.label1.Text = "UserNo";
             // 
-            // cmbpozisyon
-            // 
-            this.cmbpozisyon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cmbpozisyon.FormattingEnabled = true;
-            this.cmbpozisyon.Location = new System.Drawing.Point(29, 166);
-            this.cmbpozisyon.Name = "cmbpozisyon";
-            this.cmbpozisyon.Size = new System.Drawing.Size(245, 34);
-            this.cmbpozisyon.TabIndex = 43;
-            // 
-            // cmbdepartman
-            // 
-            this.cmbdepartman.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cmbdepartman.FormattingEnabled = true;
-            this.cmbdepartman.Location = new System.Drawing.Point(29, 62);
-            this.cmbdepartman.Name = "cmbdepartman";
-            this.cmbdepartman.Size = new System.Drawing.Size(245, 34);
-            this.cmbdepartman.TabIndex = 41;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(23, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 31);
-            this.label4.TabIndex = 40;
-            this.label4.Text = "Departman";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(23, 120);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 31);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "Pozisyon";
-            // 
             // FrmMaasBilgileri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -266,8 +270,8 @@
             this.Controls.Add(this.btnKapat);
             this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cmbAylar);
+            this.Controls.Add(this.txtyıl);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtmaas);
             this.Controls.Add(this.label6);
@@ -281,10 +285,11 @@
             this.Name = "FrmMaasBilgileri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maas Bilgileri";
+            this.Load += new System.EventHandler(this.FrmMaasBilgileri_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -302,8 +307,8 @@
         private System.Windows.Forms.Button btnKapat;
         private System.Windows.Forms.Button btnKaydet;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cmbAylar;
+        private System.Windows.Forms.TextBox txtyıl;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtmaas;
         private System.Windows.Forms.Label label6;

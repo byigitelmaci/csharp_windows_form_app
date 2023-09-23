@@ -9,7 +9,8 @@ namespace DAL1.DTO
 {
     public class IsDetayDTO
     {
-        public int PersoneID { get; set; }
+        
+        public string baslik { get; set; }
         public int UserNO { get; set; }
         public string Ad { get; set; }
         public string Soyad { get; set; }
@@ -17,7 +18,7 @@ namespace DAL1.DTO
         public string PozisyonAd { get; set; }
         public int DepartmanID { get; set; }
         public int PozisyonID { get; set; }
-        public string baslik { get; set; }
+        public int PersoneID { get; set; }
         public string icerik { get; set; }
         public string IsDurumAd { get; set; }
         public int IsDurumID { get; set; }

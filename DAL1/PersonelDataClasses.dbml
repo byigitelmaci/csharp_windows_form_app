@@ -46,15 +46,6 @@
       <Column Name="IzinDurumAd" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
     </Type>
   </Table>
-  <Table Name="dbo.MAAS" Member="MAAs">
-    <Type Name="MAA">
-      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="PersonelID" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="Miktar" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="Yıl" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="Ay_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.PERSONEL" Member="PERSONELs">
     <Type Name="PERSONEL">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -76,6 +67,15 @@
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="PozisyonAd" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="DepartmanID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAASST" Member="MAASSTs">
+    <Type Name="MAASST">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PersonelID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Miktar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yıl" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ay_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
 </Database>

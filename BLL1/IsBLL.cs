@@ -1,4 +1,5 @@
-﻿using DAL1.DAO;
+﻿using DAL1;
+using DAL1.DAO;
 using DAL1.DTO;
 using System;
 using System.Collections.Generic;
@@ -10,14 +11,30 @@ namespace BLL1
 {
     public class IsBLL
     {
-        public static IsDTO GetAll()
+        public static IsDTO GetAll()    
         {
             IsDTO dto = new IsDTO();
             dto.Departmanlar = DepartmanDAO1.DepartmanGetir();
             dto.Pozisyonlar = PozisyonDAO.PozisyonGetir();
             dto.Personeller = PersonelDAO.personelGetir();
             dto.Durumlar = IsDAO.DurumGetir();
+            dto.Isler = IsDAO.IsGetir();
             return dto;
+        }
+
+        public static void IsEkle(I iss)
+        {
+            IsDAO.IsEkle(iss);
+        }
+
+        public static void IsGuncelle(IsDetayDTO dto)
+        {
+            IsDAO.IsGuncell(dto);
+        }
+
+        public static void IsSil(int isID)
+        {
+            IsDAO.IsSil(isID);
         }
     }
 }

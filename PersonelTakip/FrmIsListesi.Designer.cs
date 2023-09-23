@@ -111,6 +111,7 @@
             this.btnsil.TabIndex = 21;
             this.btnsil.Text = "sil";
             this.btnsil.UseVisualStyleBackColor = true;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
             // 
             // btngüncelle
             // 
@@ -171,6 +172,7 @@
             this.btnTemizle.TabIndex = 40;
             this.btnTemizle.Text = "temizle";
             this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // cmbIsDurumu
             // 
@@ -190,6 +192,7 @@
             this.btnAra.TabIndex = 39;
             this.btnAra.Text = "ara";
             this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
             // 
             // groupBox1
             // 
@@ -315,6 +318,7 @@
             this.cmbdepartman.Name = "cmbdepartman";
             this.cmbdepartman.Size = new System.Drawing.Size(245, 34);
             this.cmbdepartman.TabIndex = 34;
+            this.cmbdepartman.SelectedIndexChanged += new System.EventHandler(this.cmbdepartman_SelectedIndexChanged);
             // 
             // txtsoyad
             // 
@@ -393,14 +397,17 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 291);
+            this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1258, 343);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // FrmIsListesi
             // 

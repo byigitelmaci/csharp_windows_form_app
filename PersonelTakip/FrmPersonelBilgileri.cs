@@ -41,7 +41,11 @@ namespace PersonelTakip
         {
             this.Close();
         }
-        PersonelDTO dto = new PersonelDTO();
+        PersonelDTO dto = new PersonelDTO(); 
+        public PersonelDetayDTO detay = new PersonelDetayDTO();
+        public bool isUpdate = false;
+        string resim2 = "";
+
         private void FrmPersonelBilgileri_Load(object sender, EventArgs e)
         {
             dto = PersonelBLL.GetAll();
@@ -52,9 +56,25 @@ namespace PersonelTakip
             cmbpozisyon.DataSource = dto.Pozisyonlar;
             cmbpozisyon.DisplayMember = "PozisyonAd";
             cmbpozisyon.ValueMember = "ID";
-            cmbpozisyon.SelectedIndex = -1; 
+            cmbpozisyon.SelectedIndex = -1;
             if (dto.Departmanlar.Count > 0)
                 combofull = true;
+            if (isUpdate)
+            {
+                txtadı.Text = detay.Ad;
+                txtadres.Text = detay.Adres;
+                txtmaas.Text = detay.Maas.ToString();
+                txtPassword.Text = detay.password;
+                txtsoyad.Text = detay.Soyad;
+                txtUserNo.Text = detay.UserNO.ToString();
+                chisadmin.Checked = detay.isadmin;
+                cmbdepartman.SelectedValue = detay.DepartmanID;
+                cmbpozisyon.SelectedValue = detay.PozisyonID;
+                resim2 = Application.StartupPath + "\\resimler\\" + detay.Resim;
+                txtresim.Text = resim2;
+                //pictureBox1.Load(resim2);
+            }
+
 
         }
         bool combofull = false;
@@ -104,34 +124,71 @@ namespace PersonelTakip
                 MessageBox.Show("Pozisyon");
             else
             {
-                PERSONEL pr = new PERSONEL();
-                pr.UserNo=Convert.ToInt32(txtUserNo.Text);
-                pr.Password=txtPassword.Text;
-                pr.Adres=txtadres.Text;
-                pr.Ad=txtadı.Text;
-                pr.Soyad=txtsoyad.Text;
-                pr.Maas = Convert.ToInt32(txtmaas.Text);
-                pr.isAdmin=chisadmin.Checked;
-                pr.PozisyonID = Convert.ToInt32(cmbpozisyon.SelectedValue);
-                pr.DepartmanID=Convert.ToInt32(cmbdepartman.SelectedValue);
-                pr.DogumGunu = dateTimePicker1.Value;
-                pr.Resim = resimad;
-                PersonelBLL.PersonelEkle(pr);
-                File.Copy(txtresim.Text, @"resimler\\" + resimad);
-                MessageBox.Show("Personel Eklendi");
-                txtUserNo.Clear();
-                txtPassword.Clear();
-                txtsoyad.Clear();
-                txtmaas.Clear();
-                txtadres.Clear();
-                txtadı.Clear();
-                txtresim.Clear();
-                chisadmin.Checked = false;
-                cmbdepartman.SelectedIndex = -1;
-                cmbpozisyon.DataSource = dto.Pozisyonlar;
-                cmbpozisyon.SelectedIndex = -1;
-                dateTimePicker1.Value = DateTime.Today;
-                resimad = "";
+                if (isUpdate)
+                {
+                    DialogResult result = MessageBox.Show("Eminmisin?", "Dikkat", MessageBoxButtons.YesNo);
+                    if (result == DialogResult.Yes)
+                    {
+                        PersonelDetayDTO pr = new PersonelDetayDTO();
+                        pr.PersoneID = detay.PersoneID;
+                        pr.UserNO = Convert.ToInt32(txtUserNo.Text);
+                        pr.Ad = txtadı.Text;
+                        pr.Soyad = txtsoyad.Text;
+                        pr.Maas = Convert.ToInt32(txtmaas.Text);
+                        pr.isadmin = chisadmin.Checked;
+                        pr.password = txtPassword.Text;
+                        pr.PozisyonID = Convert.ToInt32(cmbpozisyon.SelectedValue);
+                        pr.DepartmanID = Convert.ToInt32(cmbdepartman.SelectedValue);
+                        pr.DogumTarihi = dateTimePicker1.Value;
+                        pr.Adres = txtadres.Text; 
+                        if (resim2 != txtresim.Text)
+                        {
+                            pr.Resim = resimad;
+                            if (File.Exists(resim2))
+                                File.Delete(resim2);
+                            File.Copy(txtresim.Text, @"resimler\\" + resimad);
+
+                        }
+                        else
+                            pr.Resim = detay.Resim;
+                        PersonelBLL.PersonelGuncelle(pr);
+                        MessageBox.Show("Güncellendi");
+                        this.Close();
+                    }
+                }
+                else
+                {
+
+
+                    PERSONEL pr = new PERSONEL();
+                    pr.UserNo = Convert.ToInt32(txtUserNo.Text);
+                    pr.Password = txtPassword.Text;
+                    pr.Adres = txtadres.Text;
+                    pr.Ad = txtadı.Text;
+                    pr.Soyad = txtsoyad.Text;
+                    pr.Maas = Convert.ToInt32(txtmaas.Text);
+                    pr.isAdmin = chisadmin.Checked;
+                    pr.PozisyonID = Convert.ToInt32(cmbpozisyon.SelectedValue);
+                    pr.DepartmanID = Convert.ToInt32(cmbdepartman.SelectedValue);
+                    pr.DogumGunu = dateTimePicker1.Value;
+                    pr.Resim = resimad;
+                    PersonelBLL.PersonelEkle(pr);
+                    File.Copy(txtresim.Text, @"resimler\\" + resimad);
+                    MessageBox.Show("Personel Eklendi");
+                    txtUserNo.Clear();
+                    txtPassword.Clear();
+                    txtsoyad.Clear();
+                    txtmaas.Clear();
+                    txtadres.Clear();
+                    txtadı.Clear();
+                    txtresim.Clear();
+                    chisadmin.Checked = false;
+                    cmbdepartman.SelectedIndex = -1;
+                    cmbpozisyon.DataSource = dto.Pozisyonlar;
+                    cmbpozisyon.SelectedIndex = -1;
+                    dateTimePicker1.Value = DateTime.Today;
+                    resimad = "";
+                }
 
 
 

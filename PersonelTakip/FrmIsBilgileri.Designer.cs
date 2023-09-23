@@ -37,9 +37,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnKapat = new System.Windows.Forms.Button();
             this.btnKaydet = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txticerik = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbaslik = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.cmbIsDurumu = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -66,6 +66,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 258);
@@ -74,6 +75,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(353, 521);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // panel2
             // 
@@ -104,6 +106,7 @@
             this.cmbdepartman.Name = "cmbdepartman";
             this.cmbdepartman.Size = new System.Drawing.Size(245, 34);
             this.cmbdepartman.TabIndex = 32;
+            this.cmbdepartman.SelectedIndexChanged += new System.EventHandler(this.cmbdepartman_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -145,15 +148,16 @@
             this.btnKaydet.TabIndex = 52;
             this.btnKaydet.Text = "kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
-            // textBox2
+            // txticerik
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(230, 393);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(453, 204);
-            this.textBox2.TabIndex = 51;
+            this.txticerik.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txticerik.Location = new System.Drawing.Point(230, 393);
+            this.txticerik.Multiline = true;
+            this.txticerik.Name = "txticerik";
+            this.txticerik.Size = new System.Drawing.Size(453, 204);
+            this.txticerik.TabIndex = 51;
             // 
             // label7
             // 
@@ -165,13 +169,13 @@
             this.label7.TabIndex = 50;
             this.label7.Text = "başlık";
             // 
-            // textBox1
+            // txtbaslik
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(230, 310);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(245, 32);
-            this.textBox1.TabIndex = 49;
+            this.txtbaslik.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtbaslik.Location = new System.Drawing.Point(230, 310);
+            this.txtbaslik.Name = "txtbaslik";
+            this.txtbaslik.Size = new System.Drawing.Size(245, 32);
+            this.txtbaslik.TabIndex = 49;
             // 
             // label6
             // 
@@ -266,9 +270,9 @@
             this.ClientSize = new System.Drawing.Size(1114, 779);
             this.Controls.Add(this.btnKapat);
             this.Controls.Add(this.btnKaydet);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txticerik);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtbaslik);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbIsDurumu);
             this.Controls.Add(this.label9);
@@ -303,9 +307,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnKapat;
         private System.Windows.Forms.Button btnKaydet;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txticerik;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbaslik;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cmbIsDurumu;
         private System.Windows.Forms.Label label9;

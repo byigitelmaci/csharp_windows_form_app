@@ -20,5 +20,12 @@ namespace BLL1
         {
             return PozisyonDAO.PozisyonGetir();
         }
+
+        public static void PozisyonGuncelle(PozisyonDetayDTO detay, bool control)
+        {
+            PozisyonDAO.PozisyonGuncelle(detay);
+            if (control)
+                PersonelDAO.PersonelGuncelle(detay);
+        }
     }
 }

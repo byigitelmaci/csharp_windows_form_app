@@ -29,6 +29,7 @@ namespace PersonelTakip
         {
             FrmPozisyonBilgileri frm = new FrmPozisyonBilgileri();
             this.Hide();
+            frm.isupdate = false;
             frm.ShowDialog();
             this.Visible = true;
             liste = PozisyonBLL.PozisyonGetir();
@@ -39,10 +40,15 @@ namespace PersonelTakip
         {
             FrmPozisyonBilgileri frm = new FrmPozisyonBilgileri();
             this.Hide();
+            frm.isupdate = true;
+            frm.detay = detay;
             frm.ShowDialog();
             this.Visible = true;
+            liste = PozisyonBLL.PozisyonGetir();
+            dataGridView1.DataSource = liste;
         }
         List<PozisyonDTO> liste = new List<PozisyonDTO>();
+        PozisyonDetayDTO detay = new PozisyonDetayDTO();
         private void FrmPozisyonListesi_Load(object sender, EventArgs e)
         {
             liste = PozisyonBLL.PozisyonGetir();
@@ -51,6 +57,15 @@ namespace PersonelTakip
             dataGridView1.Columns[1].Visible = false;
             dataGridView1.Columns[3].Visible = false;
             dataGridView1.Columns[3].HeaderText = "Pozisyon Adı";
+
+        }
+
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detay.ID= Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Value);
+            detay.DepartmanID= Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[3].Value);
+            detay.EskiDepartmanID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[3].Value);
+            detay.PozisyonAD = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
 
         }
     }

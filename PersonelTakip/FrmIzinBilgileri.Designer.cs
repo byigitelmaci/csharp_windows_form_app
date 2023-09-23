@@ -30,7 +30,7 @@
         {
             this.btnKapat = new System.Windows.Forms.Button();
             this.btnKaydet = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtaciklama = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtsure = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -62,15 +62,17 @@
             this.btnKaydet.TabIndex = 50;
             this.btnKaydet.Text = "kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
-            // textBox2
+            // txtaciklama
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(249, 387);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(453, 204);
-            this.textBox2.TabIndex = 49;
+            this.txtaciklama.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtaciklama.Location = new System.Drawing.Point(285, 389);
+            this.txtaciklama.Multiline = true;
+            this.txtaciklama.Name = "txtaciklama";
+            this.txtaciklama.Size = new System.Drawing.Size(453, 204);
+            this.txtaciklama.TabIndex = 49;
+            this.txtaciklama.TextChanged += new System.EventHandler(this.txtaciklama_TextChanged);
             // 
             // label7
             // 
@@ -85,7 +87,7 @@
             // txtsure
             // 
             this.txtsure.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtsure.Location = new System.Drawing.Point(265, 293);
+            this.txtsure.Location = new System.Drawing.Point(285, 293);
             this.txtsure.Name = "txtsure";
             this.txtsure.ReadOnly = true;
             this.txtsure.Size = new System.Drawing.Size(250, 32);
@@ -104,18 +106,20 @@
             // dpbitis
             // 
             this.dpbitis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dpbitis.Location = new System.Drawing.Point(265, 199);
+            this.dpbitis.Location = new System.Drawing.Point(285, 192);
             this.dpbitis.Name = "dpbitis";
             this.dpbitis.Size = new System.Drawing.Size(298, 30);
             this.dpbitis.TabIndex = 45;
+            this.dpbitis.ValueChanged += new System.EventHandler(this.dpbitis_ValueChanged);
             // 
             // dpbaslama
             // 
             this.dpbaslama.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dpbaslama.Location = new System.Drawing.Point(265, 114);
+            this.dpbaslama.Location = new System.Drawing.Point(285, 107);
             this.dpbaslama.Name = "dpbaslama";
             this.dpbaslama.Size = new System.Drawing.Size(298, 30);
             this.dpbaslama.TabIndex = 44;
+            this.dpbaslama.ValueChanged += new System.EventHandler(this.dpbaslama_ValueChanged);
             // 
             // label3
             // 
@@ -140,7 +144,7 @@
             // txtUserNo
             // 
             this.txtUserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtUserNo.Location = new System.Drawing.Point(265, 24);
+            this.txtUserNo.Location = new System.Drawing.Point(285, 24);
             this.txtUserNo.Name = "txtUserNo";
             this.txtUserNo.ReadOnly = true;
             this.txtUserNo.Size = new System.Drawing.Size(250, 32);
@@ -163,7 +167,7 @@
             this.ClientSize = new System.Drawing.Size(821, 759);
             this.Controls.Add(this.btnKapat);
             this.Controls.Add(this.btnKaydet);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtaciklama);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtsure);
             this.Controls.Add(this.label4);
@@ -176,6 +180,7 @@
             this.Name = "FrmIzinBilgileri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmIzinBilgileri";
+            this.Load += new System.EventHandler(this.FrmIzinBilgileri_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,7 +190,7 @@
 
         private System.Windows.Forms.Button btnKapat;
         private System.Windows.Forms.Button btnKaydet;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtaciklama;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtsure;
         private System.Windows.Forms.Label label4;
