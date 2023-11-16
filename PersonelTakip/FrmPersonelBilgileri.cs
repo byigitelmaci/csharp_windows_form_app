@@ -72,7 +72,7 @@ namespace PersonelTakip
                 cmbpozisyon.SelectedValue = detay.PozisyonID;
                 resim2 = Application.StartupPath + "\\resimler\\" + detay.Resim;
                 txtresim.Text = resim2;
-                //pictureBox1.Load(resim2);
+                pictureBox1.Load(resim2);
             }
 
 

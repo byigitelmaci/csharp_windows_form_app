@@ -1,0 +1,11 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\bin\Debug\deneme_githuba_aticam.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\bin\Debug\deneme_githuba_aticam.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\bin\Debug\deneme_githuba_aticam.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\deneme_githuba_aticam\obj\Debug\deneme_githuba_aticam.pdb

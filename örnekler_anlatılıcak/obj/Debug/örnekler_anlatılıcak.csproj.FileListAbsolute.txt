@@ -1,0 +1,12 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\bin\Debug\örnekler_anlatılıcak.exe.config
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\bin\Debug\örnekler_anlatılıcak.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\bin\Debug\örnekler_anlatılıcak.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.Form1.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.exe
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.pdb
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\örnekler_anlatılıcak\obj\Debug\örnekler_anlatılıcak.Form3.resources

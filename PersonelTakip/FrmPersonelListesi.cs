@@ -91,7 +91,7 @@ namespace PersonelTakip
                 combofull = true;
             cmbpozisyon.DataSource = dto.Pozisyonlar;
             cmbpozisyon.DisplayMember = "PozisyonAd";
-            cmbpozisyon.ValueMember = "ID";
+            cmbpozisyon.ValueMember = "ID"; 
             cmbpozisyon.SelectedIndex = -1;
         }
 
