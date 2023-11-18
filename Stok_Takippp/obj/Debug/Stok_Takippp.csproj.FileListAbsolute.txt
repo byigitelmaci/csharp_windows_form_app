@@ -1,0 +1,8 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmKategori.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmKategoriListesi.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmUrun.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.csproj.CoreCompileInputs.cache

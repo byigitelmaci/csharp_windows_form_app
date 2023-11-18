@@ -1,0 +1,5 @@
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takipp\obj\Debug\Stok_Takipp.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takipp\obj\Debug\Stok_Takipp.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takipp\obj\Debug\Stok_Takipp.Properties.Resources.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takipp\obj\Debug\Stok_Takipp.csproj.GenerateResource.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takipp\obj\Debug\Stok_Takipp.csproj.CoreCompileInputs.cache
