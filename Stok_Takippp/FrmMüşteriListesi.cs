@@ -16,5 +16,18 @@ namespace Stok_Takippp
         {
             InitializeComponent();
         }
+
+        private void FrmMüşteriListesi_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEkle_Click(object sender, EventArgs e)
+        {
+            frmMusteri frm = new frmMusteri();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

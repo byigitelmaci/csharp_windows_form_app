@@ -84,6 +84,12 @@
     <Compile Include="FrmKategoriListesi.Designer.cs">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMusteri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,24 @@
     </Compile>
     <Compile Include="FrmMüşteriListesi.Designer.cs">
       <DependentUpon>FrmMüşteriListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSatış.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSatış.Designer.cs">
+      <DependentUpon>FrmSatış.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSatışListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSatışListesi.Designer.cs">
+      <DependentUpon>FrmSatışListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSilinenler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSilinenler.Designer.cs">
+      <DependentUpon>FrmSilinenler.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmStokEkleme.cs">
       <SubType>Form</SubType>
@@ -114,6 +138,12 @@
     <Compile Include="FrmUrunListesi.Designer.cs">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUyarı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUyarı.Designer.cs">
+      <DependentUpon>FrmUyarı.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -122,11 +152,23 @@
     <EmbeddedResource Include="FrmKategoriListesi.resx">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMusteri.resx">
       <DependentUpon>frmMusteri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMüşteriListesi.resx">
       <DependentUpon>FrmMüşteriListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSatış.resx">
+      <DependentUpon>FrmSatış.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSatışListesi.resx">
+      <DependentUpon>FrmSatışListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSilinenler.resx">
+      <DependentUpon>FrmSilinenler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStokEkleme.resx">
       <DependentUpon>FrmStokEkleme.cs</DependentUpon>
@@ -136,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUyarı.resx">
+      <DependentUpon>FrmUyarı.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

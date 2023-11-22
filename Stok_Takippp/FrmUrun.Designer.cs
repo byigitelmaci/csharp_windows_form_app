@@ -105,6 +105,7 @@
             this.btnKapat.TabIndex = 12;
             this.btnKapat.Text = "Kapat";
             this.btnKapat.UseVisualStyleBackColor = true;
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
             // btnKaydet
             // 

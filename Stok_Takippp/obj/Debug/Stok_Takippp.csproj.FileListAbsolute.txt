@@ -6,3 +6,12 @@ C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\ob
 C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.Properties.Resources.resources
 C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.csproj.GenerateResource.cache
 C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmMain.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.frmMusteri.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmMüşteriListesi.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmSatış.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmSatışListesi.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmSilinenler.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmStokEkleme.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmUrunListesi.resources
+C:\Users\HUAWEI\OneDrive\Belgeler\GitHub\csharp_windows_form_app\Stok_Takippp\obj\Debug\Stok_Takippp.FrmUyarı.resources

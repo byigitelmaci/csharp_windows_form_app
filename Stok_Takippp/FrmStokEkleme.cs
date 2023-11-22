@@ -27,5 +27,10 @@ namespace Stok_Takippp
         {
             this.Close();
         }
+
+        private void txtUrünStok_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

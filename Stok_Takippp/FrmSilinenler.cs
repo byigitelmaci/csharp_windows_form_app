@@ -10,27 +10,20 @@ using System.Windows.Forms;
 
 namespace Stok_Takippp
 {
-    public partial class FrmUrun : Form
+    public partial class FrmSilinenler : Form
     {
-        public FrmUrun()
+        public FrmSilinenler()
         {
             InitializeComponent();
         }
 
-        private void txtUrunfiyatı_TextChanged(object sender, EventArgs e)
+        private void FrmSilinenler_Load(object sender, EventArgs e)
         {
+            cmbTablolar.Items.Add("Kategoriler");
+            cmbTablolar.Items.Add("Ürünler");
+            cmbTablolar.Items.Add("Müşriler");
+            cmbTablolar.Items.Add("Satış");
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtUrunfiyatı_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            { e.Handled = true; }
         }
 
         private void btnKapat_Click(object sender, EventArgs e)

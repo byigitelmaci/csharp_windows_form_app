@@ -30,9 +30,9 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMüşteriAdı = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnKapat = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
             this.btnGüncelle = new System.Windows.Forms.Button();
@@ -64,18 +64,6 @@
             this.panel1.Size = new System.Drawing.Size(787, 100);
             this.panel1.TabIndex = 1;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.btnKapat);
-            this.panel2.Controls.Add(this.btnSil);
-            this.panel2.Controls.Add(this.btnGüncelle);
-            this.panel2.Controls.Add(this.btnEkle);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 410);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(787, 100);
-            this.panel2.TabIndex = 2;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -93,6 +81,18 @@
             this.txtMüşteriAdı.Name = "txtMüşteriAdı";
             this.txtMüşteriAdı.Size = new System.Drawing.Size(193, 30);
             this.txtMüşteriAdı.TabIndex = 22;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnKapat);
+            this.panel2.Controls.Add(this.btnSil);
+            this.panel2.Controls.Add(this.btnGüncelle);
+            this.panel2.Controls.Add(this.btnEkle);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 410);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(787, 100);
+            this.panel2.TabIndex = 2;
             // 
             // btnKapat
             // 
@@ -133,6 +133,7 @@
             this.btnEkle.TabIndex = 12;
             this.btnEkle.Text = "ekle";
             this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // FrmMüşteriListesi
             // 
@@ -144,6 +145,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmMüşteriListesi";
             this.Text = "FrmMüşteriListesi";
+            this.Load += new System.EventHandler(this.FrmMüşteriListesi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

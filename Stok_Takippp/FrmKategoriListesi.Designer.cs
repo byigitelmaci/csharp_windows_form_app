@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtKategoriAd = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnGüncelle = new System.Windows.Forms.Button();
-            this.btnKaydet = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnKapat = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
+            this.btnGüncelle = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -51,31 +51,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(759, 100);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.btnKapat);
-            this.panel2.Controls.Add(this.btnSil);
-            this.panel2.Controls.Add(this.btnGüncelle);
-            this.panel2.Controls.Add(this.btnKaydet);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 377);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(759, 100);
-            this.panel2.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 100);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(759, 277);
-            this.dataGridView1.TabIndex = 2;
             // 
             // txtKategoriAd
             // 
@@ -95,25 +70,17 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Kategori Ad";
             // 
-            // btnGüncelle
+            // panel2
             // 
-            this.btnGüncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGüncelle.Location = new System.Drawing.Point(201, 12);
-            this.btnGüncelle.Name = "btnGüncelle";
-            this.btnGüncelle.Size = new System.Drawing.Size(170, 76);
-            this.btnGüncelle.TabIndex = 5;
-            this.btnGüncelle.Text = "Güncelle";
-            this.btnGüncelle.UseVisualStyleBackColor = true;
-            // 
-            // btnKaydet
-            // 
-            this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKaydet.Location = new System.Drawing.Point(13, 12);
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(170, 76);
-            this.btnKaydet.TabIndex = 4;
-            this.btnKaydet.Text = "Kaydet";
-            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.panel2.Controls.Add(this.btnKapat);
+            this.panel2.Controls.Add(this.btnSil);
+            this.panel2.Controls.Add(this.btnGüncelle);
+            this.panel2.Controls.Add(this.btnEkle);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 377);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(759, 100);
+            this.panel2.TabIndex = 1;
             // 
             // btnKapat
             // 
@@ -134,6 +101,40 @@
             this.btnSil.TabIndex = 6;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            // 
+            // btnGüncelle
+            // 
+            this.btnGüncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGüncelle.Location = new System.Drawing.Point(201, 12);
+            this.btnGüncelle.Name = "btnGüncelle";
+            this.btnGüncelle.Size = new System.Drawing.Size(170, 76);
+            this.btnGüncelle.TabIndex = 5;
+            this.btnGüncelle.Text = "Güncelle";
+            this.btnGüncelle.UseVisualStyleBackColor = true;
+            // 
+            // btnEkle
+            // 
+            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.Location = new System.Drawing.Point(13, 12);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(170, 76);
+            this.btnEkle.TabIndex = 4;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 100);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(759, 277);
+            this.dataGridView1.TabIndex = 2;
             // 
             // FrmKategoriListesi
             // 
@@ -163,6 +164,6 @@
         private System.Windows.Forms.Button btnKapat;
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Button btnGüncelle;
-        private System.Windows.Forms.Button btnKaydet;
+        private System.Windows.Forms.Button btnEkle;
     }
 }

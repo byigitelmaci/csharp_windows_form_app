@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Stok_Takippp
 {
-    public partial class FrmUrunListesi : Form
+    public partial class FrmSatışListesi : Form
     {
-        public FrmUrunListesi()
+        public FrmSatışListesi()
         {
             InitializeComponent();
         }
@@ -22,36 +22,26 @@ namespace Stok_Takippp
             this.Close();
         }
 
-        private void txtUrunfiyatı_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtUrunfiyatı_TextChanged(object sender, EventArgs e)
         {
-            if (!char.IsControl(e.KeyChar)&& !char.IsDigit(e.KeyChar))
-            { e.Handled = true; }
+            
         }
 
-        private void txtUrünstok_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtUrunfiyatı_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             { e.Handled = true; }
         }
 
-        private void txtUrunfiyatı_TextChanged(object sender, EventArgs e)
+        private void txtsatışmiktarı_KeyPress(object sender, KeyPressEventArgs e)
         {
-
-        }
-
-        private void cmbKategori_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            { e.Handled = true; }
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
-            FrmUrun frm = new FrmUrun();
+            FrmSatış frm = new FrmSatış();
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;

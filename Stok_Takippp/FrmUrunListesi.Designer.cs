@@ -30,8 +30,8 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTemizle = new System.Windows.Forms.Button();
+            this.btnAra = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbsEşit = new System.Windows.Forms.RadioButton();
             this.rbsKüçük = new System.Windows.Forms.RadioButton();
@@ -75,8 +75,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnTemizle);
+            this.panel1.Controls.Add(this.btnAra);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.label4);
@@ -93,25 +93,25 @@
             this.panel1.Size = new System.Drawing.Size(1148, 172);
             this.panel1.TabIndex = 1;
             // 
-            // button1
+            // btnTemizle
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(626, 110);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 49);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Güncelle";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTemizle.Location = new System.Drawing.Point(626, 110);
+            this.btnTemizle.Name = "btnTemizle";
+            this.btnTemizle.Size = new System.Drawing.Size(128, 49);
+            this.btnTemizle.TabIndex = 22;
+            this.btnTemizle.Text = "Temizle";
+            this.btnTemizle.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnAra
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(438, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 49);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "ekle";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAra.Location = new System.Drawing.Point(438, 110);
+            this.btnAra.Name = "btnAra";
+            this.btnAra.Size = new System.Drawing.Size(128, 49);
+            this.btnAra.TabIndex = 21;
+            this.btnAra.Text = "Ara";
+            this.btnAra.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -239,6 +239,7 @@
             this.txtUrunfiyatı.Name = "txtUrunfiyatı";
             this.txtUrunfiyatı.Size = new System.Drawing.Size(193, 30);
             this.txtUrunfiyatı.TabIndex = 15;
+            this.txtUrunfiyatı.TextChanged += new System.EventHandler(this.txtUrunfiyatı_TextChanged);
             this.txtUrunfiyatı.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUrunfiyatı_KeyPress);
             // 
             // cmbKategori
@@ -249,6 +250,7 @@
             this.cmbKategori.Name = "cmbKategori";
             this.cmbKategori.Size = new System.Drawing.Size(193, 28);
             this.cmbKategori.TabIndex = 14;
+            this.cmbKategori.SelectedIndexChanged += new System.EventHandler(this.cmbKategori_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -259,6 +261,7 @@
             this.label2.Size = new System.Drawing.Size(115, 31);
             this.label2.TabIndex = 13;
             this.label2.Text = "Kategori";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtUrunAdı
             // 
@@ -330,6 +333,7 @@
             this.btnEkle.TabIndex = 8;
             this.btnEkle.Text = "ekle";
             this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // FrmUrunListesi
             // 
@@ -378,7 +382,7 @@
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Button btnGüncelle;
         private System.Windows.Forms.Button btnEkle;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTemizle;
+        private System.Windows.Forms.Button btnAra;
     }
 }

@@ -152,6 +152,7 @@
             this.txtUrünStok.Name = "txtUrünStok";
             this.txtUrünStok.Size = new System.Drawing.Size(193, 30);
             this.txtUrünStok.TabIndex = 16;
+            this.txtUrünStok.TextChanged += new System.EventHandler(this.txtUrünStok_TextChanged);
             this.txtUrünStok.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUrünStok_KeyPress);
             // 
             // btnKapat

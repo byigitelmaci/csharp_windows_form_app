@@ -16,7 +16,7 @@ namespace Stok_Takippp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmKategori());
+            Application.Run(new FrmUyarı());
         }
     }
 }
