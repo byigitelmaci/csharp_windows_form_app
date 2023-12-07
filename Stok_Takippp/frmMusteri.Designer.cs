@@ -43,6 +43,7 @@
             this.btnKapat.TabIndex = 23;
             this.btnKapat.Text = "Kapat";
             this.btnKapat.UseVisualStyleBackColor = true;
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
             // btnKaydet
             // 
@@ -83,6 +84,7 @@
             this.Controls.Add(this.txtMüşteriAdı);
             this.Name = "frmMusteri";
             this.Text = "frmMusteri";
+            this.Load += new System.EventHandler(this.frmMusteri_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

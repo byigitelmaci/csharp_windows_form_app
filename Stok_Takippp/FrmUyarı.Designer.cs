@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnTamam = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -44,6 +44,17 @@
             this.panel1.Size = new System.Drawing.Size(887, 100);
             this.panel1.TabIndex = 0;
             // 
+            // btnTamam
+            // 
+            this.btnTamam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTamam.Location = new System.Drawing.Point(358, 12);
+            this.btnTamam.Name = "btnTamam";
+            this.btnTamam.Size = new System.Drawing.Size(170, 76);
+            this.btnTamam.TabIndex = 18;
+            this.btnTamam.Text = "Tamam";
+            this.btnTamam.UseVisualStyleBackColor = true;
+            this.btnTamam.Click += new System.EventHandler(this.btnTamam_Click);
+            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -56,17 +67,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(887, 465);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // btnTamam
-            // 
-            this.btnTamam.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTamam.Location = new System.Drawing.Point(358, 12);
-            this.btnTamam.Name = "btnTamam";
-            this.btnTamam.Size = new System.Drawing.Size(170, 76);
-            this.btnTamam.TabIndex = 18;
-            this.btnTamam.Text = "Tamam";
-            this.btnTamam.UseVisualStyleBackColor = true;
-            this.btnTamam.Click += new System.EventHandler(this.btnTamam_Click);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // FrmUyarı
             // 
@@ -77,6 +78,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmUyarı";
             this.Text = "Dikkat!!!!!";
+            this.Load += new System.EventHandler(this.FrmUyarı_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -29,14 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnKapat = new System.Windows.Forms.Button();
-            this.btnSil = new System.Windows.Forms.Button();
-            this.btnGüncelle = new System.Windows.Forms.Button();
-            this.btnEkle = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtMüşteriAdı = new System.Windows.Forms.TextBox();
+            this.chtarih = new System.Windows.Forms.CheckBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnTemizle = new System.Windows.Forms.Button();
             this.btnAra = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -55,16 +52,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtUrunAdı = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.chtarih = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtMüşteriAdı = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnKapat = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.btnGüncelle = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -94,88 +94,52 @@
             this.panel1.Size = new System.Drawing.Size(1097, 229);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // chtarih
             // 
-            this.panel2.Controls.Add(this.btnKapat);
-            this.panel2.Controls.Add(this.btnSil);
-            this.panel2.Controls.Add(this.btnGüncelle);
-            this.panel2.Controls.Add(this.btnEkle);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 482);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1097, 136);
-            this.panel2.TabIndex = 1;
+            this.chtarih.AutoSize = true;
+            this.chtarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chtarih.Location = new System.Drawing.Point(777, 193);
+            this.chtarih.Name = "chtarih";
+            this.chtarih.Size = new System.Drawing.Size(69, 24);
+            this.chtarih.TabIndex = 43;
+            this.chtarih.Text = "Tarih";
+            this.chtarih.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dateTimePicker2
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 229);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1097, 253);
-            this.dataGridView1.TabIndex = 2;
+            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker2.Location = new System.Drawing.Point(509, 185);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(222, 24);
+            this.dateTimePicker2.TabIndex = 42;
             // 
-            // btnKapat
+            // dateTimePicker1
             // 
-            this.btnKapat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKapat.Location = new System.Drawing.Point(662, 30);
-            this.btnKapat.Name = "btnKapat";
-            this.btnKapat.Size = new System.Drawing.Size(170, 76);
-            this.btnKapat.TabIndex = 15;
-            this.btnKapat.Text = "Kapat";
-            this.btnKapat.UseVisualStyleBackColor = true;
-            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(184, 187);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(218, 24);
+            this.dateTimePicker1.TabIndex = 41;
             // 
-            // btnSil
+            // label8
             // 
-            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSil.Location = new System.Drawing.Point(474, 30);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(170, 76);
-            this.btnSil.TabIndex = 14;
-            this.btnSil.Text = "Sil";
-            this.btnSil.UseVisualStyleBackColor = true;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(442, 178);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(41, 31);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "ile";
             // 
-            // btnGüncelle
+            // label7
             // 
-            this.btnGüncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGüncelle.Location = new System.Drawing.Point(287, 30);
-            this.btnGüncelle.Name = "btnGüncelle";
-            this.btnGüncelle.Size = new System.Drawing.Size(170, 76);
-            this.btnGüncelle.TabIndex = 13;
-            this.btnGüncelle.Text = "Güncelle";
-            this.btnGüncelle.UseVisualStyleBackColor = true;
-            // 
-            // btnEkle
-            // 
-            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.Location = new System.Drawing.Point(99, 30);
-            this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(170, 76);
-            this.btnEkle.TabIndex = 12;
-            this.btnEkle.Text = "ekle";
-            this.btnEkle.UseVisualStyleBackColor = true;
-            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(18, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 31);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Müşteri Adı";
-            // 
-            // txtMüşteriAdı
-            // 
-            this.txtMüşteriAdı.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüşteriAdı.Location = new System.Drawing.Point(191, 25);
-            this.txtMüşteriAdı.Name = "txtMüşteriAdı";
-            this.txtMüşteriAdı.Size = new System.Drawing.Size(193, 30);
-            this.txtMüşteriAdı.TabIndex = 24;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(21, 179);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(150, 31);
+            this.label7.TabIndex = 39;
+            this.label7.Text = "Satış Tarihi";
             // 
             // btnTemizle
             // 
@@ -363,52 +327,90 @@
             this.label5.TabIndex = 26;
             this.label5.Text = "Ürün Adı";
             // 
-            // label7
+            // label1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(21, 179);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 31);
-            this.label7.TabIndex = 39;
-            this.label7.Text = "Satış Tarihi";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(18, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(149, 31);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Müşteri Adı";
             // 
-            // label8
+            // txtMüşteriAdı
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(442, 178);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 31);
-            this.label8.TabIndex = 40;
-            this.label8.Text = "ile";
+            this.txtMüşteriAdı.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtMüşteriAdı.Location = new System.Drawing.Point(191, 25);
+            this.txtMüşteriAdı.Name = "txtMüşteriAdı";
+            this.txtMüşteriAdı.Size = new System.Drawing.Size(193, 30);
+            this.txtMüşteriAdı.TabIndex = 24;
             // 
-            // dateTimePicker1
+            // panel2
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(184, 187);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(218, 24);
-            this.dateTimePicker1.TabIndex = 41;
+            this.panel2.Controls.Add(this.btnKapat);
+            this.panel2.Controls.Add(this.btnSil);
+            this.panel2.Controls.Add(this.btnGüncelle);
+            this.panel2.Controls.Add(this.btnEkle);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 482);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1097, 136);
+            this.panel2.TabIndex = 1;
             // 
-            // dateTimePicker2
+            // btnKapat
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(509, 185);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(222, 24);
-            this.dateTimePicker2.TabIndex = 42;
+            this.btnKapat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKapat.Location = new System.Drawing.Point(662, 30);
+            this.btnKapat.Name = "btnKapat";
+            this.btnKapat.Size = new System.Drawing.Size(170, 76);
+            this.btnKapat.TabIndex = 15;
+            this.btnKapat.Text = "Kapat";
+            this.btnKapat.UseVisualStyleBackColor = true;
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
-            // chtarih
+            // btnSil
             // 
-            this.chtarih.AutoSize = true;
-            this.chtarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.chtarih.Location = new System.Drawing.Point(777, 193);
-            this.chtarih.Name = "chtarih";
-            this.chtarih.Size = new System.Drawing.Size(69, 24);
-            this.chtarih.TabIndex = 43;
-            this.chtarih.Text = "Tarih";
-            this.chtarih.UseVisualStyleBackColor = false;
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.Location = new System.Drawing.Point(474, 30);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(170, 76);
+            this.btnSil.TabIndex = 14;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            // 
+            // btnGüncelle
+            // 
+            this.btnGüncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGüncelle.Location = new System.Drawing.Point(287, 30);
+            this.btnGüncelle.Name = "btnGüncelle";
+            this.btnGüncelle.Size = new System.Drawing.Size(170, 76);
+            this.btnGüncelle.TabIndex = 13;
+            this.btnGüncelle.Text = "Güncelle";
+            this.btnGüncelle.UseVisualStyleBackColor = true;
+            // 
+            // btnEkle
+            // 
+            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.Location = new System.Drawing.Point(99, 30);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(170, 76);
+            this.btnEkle.TabIndex = 12;
+            this.btnEkle.Text = "ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 229);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1097, 253);
+            this.dataGridView1.TabIndex = 2;
             // 
             // FrmSatışListesi
             // 
@@ -421,14 +423,15 @@
             this.Name = "FrmSatışListesi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSatışListesi";
+            this.Load += new System.EventHandler(this.FrmSatışListesi_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

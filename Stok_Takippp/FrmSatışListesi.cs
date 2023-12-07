@@ -46,5 +46,10 @@ namespace Stok_Takippp
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void FrmSatışListesi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

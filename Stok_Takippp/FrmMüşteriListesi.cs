@@ -29,5 +29,10 @@ namespace Stok_Takippp
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void btnKapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -23,14 +23,6 @@ namespace Stok_Takippp
             { e.Handled = true; }
         }
 
-        private void btnKapat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void txtUrünStok_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

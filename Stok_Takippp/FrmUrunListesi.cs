@@ -56,5 +56,10 @@ namespace Stok_Takippp
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void FrmUrunListesi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

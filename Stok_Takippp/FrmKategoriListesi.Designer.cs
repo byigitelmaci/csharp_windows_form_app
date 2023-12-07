@@ -91,6 +91,7 @@
             this.btnKapat.TabIndex = 7;
             this.btnKapat.Text = "Kapat";
             this.btnKapat.UseVisualStyleBackColor = true;
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
             // btnSil
             // 
@@ -146,6 +147,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmKategoriListesi";
             this.Text = "FrmKategoriListesi";
+            this.Load += new System.EventHandler(this.FrmKategoriListesi_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

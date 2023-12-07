@@ -24,5 +24,15 @@ namespace Stok_Takippp
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void FrmKategoriListesi_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

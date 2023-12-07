@@ -16,5 +16,15 @@ namespace Stok_Takippp
         {
             InitializeComponent();
         }
+
+        private void frmMusteri_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

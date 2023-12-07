@@ -132,6 +132,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmUrun";
             this.Text = "Ürün";
+            this.Load += new System.EventHandler(this.FrmUrun_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

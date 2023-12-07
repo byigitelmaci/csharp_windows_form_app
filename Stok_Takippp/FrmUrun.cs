@@ -37,5 +37,10 @@ namespace Stok_Takippp
         {
             this.Close();
         }
+
+        private void FrmUrun_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

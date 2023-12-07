@@ -24,5 +24,15 @@ namespace Stok_Takippp
             frm.ShowDialog();
             this.Visible = true;
         }
+
+        private void FrmUyarı_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

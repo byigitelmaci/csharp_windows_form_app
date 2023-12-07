@@ -63,6 +63,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 165);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(272, 388);
@@ -152,7 +153,6 @@
             this.txtUrünStok.Name = "txtUrünStok";
             this.txtUrünStok.Size = new System.Drawing.Size(193, 30);
             this.txtUrünStok.TabIndex = 16;
-            this.txtUrünStok.TextChanged += new System.EventHandler(this.txtUrünStok_TextChanged);
             this.txtUrünStok.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUrünStok_KeyPress);
             // 
             // btnKapat
@@ -164,7 +164,6 @@
             this.btnKapat.TabIndex = 19;
             this.btnKapat.Text = "Kapat";
             this.btnKapat.UseVisualStyleBackColor = true;
-            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
             // 
             // btnKaydet
             // 
