@@ -58,10 +58,11 @@ namespace STOK_TAKIP_SQL_DENEMESI
             cmbKategori.SelectedIndex = -1;
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[5].Visible = false;
+            dataGridView1.Columns[6].Visible = false;
             dataGridView1.Columns[1].HeaderText = "ürün adı";
-            dataGridView1.Columns[1].HeaderText = "kategori";
-            dataGridView1.Columns[1].HeaderText = "stok miktarı";
-            dataGridView1.Columns[1].HeaderText = "ürün miktarı";
+            dataGridView1.Columns[2].HeaderText = "kategori";
+            dataGridView1.Columns[3].HeaderText = "stok miktarı";
+            dataGridView1.Columns[4].HeaderText = "ürün miktarı";
 
 
         }

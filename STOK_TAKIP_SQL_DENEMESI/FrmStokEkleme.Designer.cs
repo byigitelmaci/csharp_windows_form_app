@@ -66,6 +66,7 @@
             this.btnKaydet.TabIndex = 27;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // label1
             // 
@@ -84,7 +85,6 @@
             this.txtUrünStok.Name = "txtUrünStok";
             this.txtUrünStok.Size = new System.Drawing.Size(193, 30);
             this.txtUrünStok.TabIndex = 25;
-            this.txtUrünStok.TextChanged += new System.EventHandler(this.txtUrünStok_TextChanged);
             this.txtUrünStok.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUrünStok_KeyPress);
             // 
             // label3
@@ -130,9 +130,9 @@
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(473, 0);
+            this.panel1.Location = new System.Drawing.Point(425, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(272, 572);
+            this.panel1.Size = new System.Drawing.Size(475, 655);
             this.panel1.TabIndex = 20;
             // 
             // dataGridView1
@@ -145,8 +145,9 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(272, 407);
+            this.dataGridView1.Size = new System.Drawing.Size(475, 490);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // panel2
             // 
@@ -155,7 +156,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(272, 165);
+            this.panel2.Size = new System.Drawing.Size(475, 165);
             this.panel2.TabIndex = 0;
             // 
             // cmbKategori
@@ -166,6 +167,7 @@
             this.cmbKategori.Name = "cmbKategori";
             this.cmbKategori.Size = new System.Drawing.Size(193, 28);
             this.cmbKategori.TabIndex = 12;
+            this.cmbKategori.SelectedIndexChanged += new System.EventHandler(this.cmbKategori_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -181,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 572);
+            this.ClientSize = new System.Drawing.Size(900, 655);
             this.Controls.Add(this.btnKapat);
             this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.label1);
@@ -194,6 +196,7 @@
             this.Name = "FrmStokEkleme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmStokEkleme";
+            this.Load += new System.EventHandler(this.FrmStokEkleme_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);

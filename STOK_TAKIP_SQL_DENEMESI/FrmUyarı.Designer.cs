@@ -78,6 +78,7 @@
             this.Name = "FrmUyarı";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmUyarı";
+            this.Load += new System.EventHandler(this.FrmUyarı_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

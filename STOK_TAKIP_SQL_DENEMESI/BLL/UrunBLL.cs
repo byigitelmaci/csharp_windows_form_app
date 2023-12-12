@@ -45,7 +45,14 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
 
         public bool update(UrunDetayDTO entity)
         {
-            throw new NotImplementedException();
+            URUN urun =new URUN();
+            if (entity.isStokEkle)
+            {
+                urun.ID = entity.ID;
+                urun.Stok = entity.StokMiktar;
+
+            }
+            return dao.Update(urun);
         }
     }
 }

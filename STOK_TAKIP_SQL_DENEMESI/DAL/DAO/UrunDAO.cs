@@ -64,7 +64,21 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
         public bool Update(URUN entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                URUN urun = db.URUN.First(x => x.ID == entity.ID);
+                if (entity.Fiyat==0) 
+                { 
+                    urun.Stok = entity.Stok;
+                }
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
     }
 }

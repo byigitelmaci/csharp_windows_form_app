@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using STOK_TAKIP_SQL_DENEMESI.DAL.DTO;
+using STOK_TAKIP_SQL_DENEMESI.BLL;
 
 namespace STOK_TAKIP_SQL_DENEMESI
 {
@@ -42,6 +44,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
         private void btnEkle_Click(object sender, EventArgs e)
         {
             FrmSatış frm = new FrmSatış();
+            frm.dto = dto;
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
@@ -51,10 +54,11 @@ namespace STOK_TAKIP_SQL_DENEMESI
         {
 
         }
-
+        SatisDTO dto = new SatisDTO();
+        SatisBLL bll = new SatisBLL();
         private void FrmSatışListesi_Load(object sender, EventArgs e)
         {
-
+            dto = bll.Select();
         }
     }
 }

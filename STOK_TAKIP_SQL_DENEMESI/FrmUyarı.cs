@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using STOK_TAKIP_SQL_DENEMESI.BLL;
+using STOK_TAKIP_SQL_DENEMESI.DAL.DTO;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace STOK_TAKIP_SQL_DENEMESI
 {
@@ -22,6 +25,30 @@ namespace STOK_TAKIP_SQL_DENEMESI
             FrmMain frm = new FrmMain();
             this.Hide();
             frm.ShowDialog();
+            
+        }
+        UrunBLL bll = new UrunBLL();
+        UrunDTO dto = new UrunDTO();
+        private void FrmUyarı_Load(object sender, EventArgs e)
+        {
+            dto = bll.Select();
+            dto.Urunler = dto.Urunler.Where(x => x.StokMiktar<=1000).ToList();
+            if (dto.Urunler.Count==0)
+            {
+                FrmMain frm = new FrmMain();
+                this.Visible = false;
+                frm.ShowDialog();
+
+            }
+            dataGridView1.DataSource = dto.Urunler;
+            dataGridView1.Columns[0].Visible = false;
+            dataGridView1.Columns[5].Visible = false;
+            dataGridView1.Columns[6].Visible = false;
+            dataGridView1.Columns[1].HeaderText = "ürün adı";
+            dataGridView1.Columns[2].HeaderText = "kategori";
+            dataGridView1.Columns[3].HeaderText = "stok miktarı";
+            dataGridView1.Columns[4].HeaderText = "ürün miktarı";
+
             
         }
     }
