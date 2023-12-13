@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using STOK_TAKIP_SQL_DENEMESI.DAL.DAO;
+using STOK_TAKIP_SQL_DENEMESI.BLL;
+using STOK_TAKIP_SQL_DENEMESI.DAL;
 
 
 namespace STOK_TAKIP_SQL_DENEMESI.BLL
@@ -27,7 +29,22 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
 
         public bool insert(SatisDetayDTO entity)
         {
-            throw new NotImplementedException();
+            SATIM satis = new SATIM();
+            satis.UrunID = entity.UrunID;
+            satis.MusteriID = entity.MusteriID;
+            satis.SatisMiktar = entity.SatisMiktar;
+            satis.SatisTarihi = entity.SatisTarihi;
+            satis.SatisFiyat = entity.Fiyat;
+            satis.KategoriID = entity.KategoriID;
+            dao.Insert(satis);
+            URUN urun = new URUN();
+            urun.ID = entity.UrunID;
+            int temp = entity.StokMiktar-entity.SatisMiktar;
+            urun.Stok = temp;
+            urunDAO.Update(urun);
+
+            return true;
+
         }
 
         public SatisDTO Select()
@@ -36,6 +53,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             dto.Kategoriler = kategoridao.select();
             dto.Musteriler = musteridao.select();
             dto.Urunler = urunDAO.select();
+            dto.Satislar = dao.select();
             return dto;
         }
 

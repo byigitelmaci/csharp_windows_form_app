@@ -31,9 +31,9 @@
             this.btnKapat = new System.Windows.Forms.Button();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSatisMiktar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtStok = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtUrunfiyatı = new System.Windows.Forms.TextBox();
             this.txtUrunAdı = new System.Windows.Forms.TextBox();
@@ -80,6 +80,7 @@
             this.btnKaydet.TabIndex = 50;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // label7
             // 
@@ -91,14 +92,14 @@
             this.label7.TabIndex = 49;
             this.label7.Text = "Ürün Satış Miktarı";
             // 
-            // textBox2
+            // txtSatisMiktar
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(255, 305);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(193, 30);
-            this.textBox2.TabIndex = 48;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.txtSatisMiktar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtSatisMiktar.Location = new System.Drawing.Point(255, 305);
+            this.txtSatisMiktar.Name = "txtSatisMiktar";
+            this.txtSatisMiktar.Size = new System.Drawing.Size(193, 30);
+            this.txtSatisMiktar.TabIndex = 48;
+            this.txtSatisMiktar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label5
             // 
@@ -110,14 +111,14 @@
             this.label5.TabIndex = 47;
             this.label5.Text = "Ürün Stok";
             // 
-            // textBox1
+            // txtStok
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(255, 249);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(193, 30);
-            this.textBox1.TabIndex = 46;
+            this.txtStok.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtStok.Location = new System.Drawing.Point(255, 249);
+            this.txtStok.Name = "txtStok";
+            this.txtStok.ReadOnly = true;
+            this.txtStok.Size = new System.Drawing.Size(193, 30);
+            this.txtStok.TabIndex = 46;
             // 
             // label4
             // 
@@ -211,6 +212,7 @@
             this.gridMusteriler.RowTemplate.Height = 24;
             this.gridMusteriler.Size = new System.Drawing.Size(420, 197);
             this.gridMusteriler.TabIndex = 1;
+            this.gridMusteriler.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridMusteriler_RowEnter);
             // 
             // panel3
             // 
@@ -305,9 +307,9 @@
             this.Controls.Add(this.btnKapat);
             this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtSatisMiktar);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtStok);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtUrunfiyatı);
             this.Controls.Add(this.txtUrunAdı);
@@ -338,9 +340,9 @@
         private System.Windows.Forms.Button btnKapat;
         private System.Windows.Forms.Button btnKaydet;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSatisMiktar;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtStok;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtUrunfiyatı;
         private System.Windows.Forms.TextBox txtUrunAdı;

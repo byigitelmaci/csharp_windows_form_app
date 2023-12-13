@@ -36,8 +36,8 @@
             this.btnEkle = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.chtarih = new System.Windows.Forms.CheckBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dpBitisTarihi = new System.Windows.Forms.DateTimePicker();
+            this.dpBaslamaTarihi = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnTemizle = new System.Windows.Forms.Button();
@@ -138,8 +138,8 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.chtarih);
-            this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.dpBitisTarihi);
+            this.panel1.Controls.Add(this.dpBaslamaTarihi);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.btnTemizle);
@@ -173,21 +173,21 @@
             this.chtarih.Text = "Tarih";
             this.chtarih.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker2
+            // dpBitisTarihi
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(509, 185);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(222, 24);
-            this.dateTimePicker2.TabIndex = 42;
+            this.dpBitisTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dpBitisTarihi.Location = new System.Drawing.Point(509, 185);
+            this.dpBitisTarihi.Name = "dpBitisTarihi";
+            this.dpBitisTarihi.Size = new System.Drawing.Size(222, 24);
+            this.dpBitisTarihi.TabIndex = 42;
             // 
-            // dateTimePicker1
+            // dpBaslamaTarihi
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(184, 187);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(218, 24);
-            this.dateTimePicker1.TabIndex = 41;
+            this.dpBaslamaTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dpBaslamaTarihi.Location = new System.Drawing.Point(184, 187);
+            this.dpBaslamaTarihi.Name = "dpBaslamaTarihi";
+            this.dpBaslamaTarihi.Size = new System.Drawing.Size(218, 24);
+            this.dpBaslamaTarihi.TabIndex = 41;
             // 
             // label8
             // 
@@ -218,6 +218,7 @@
             this.btnTemizle.TabIndex = 37;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // btnAra
             // 
@@ -228,6 +229,7 @@
             this.btnAra.TabIndex = 36;
             this.btnAra.Text = "Ara";
             this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
             // 
             // groupBox2
             // 
@@ -447,8 +449,8 @@
         private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox chtarih;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dpBitisTarihi;
+        private System.Windows.Forms.DateTimePicker dpBaslamaTarihi;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnTemizle;

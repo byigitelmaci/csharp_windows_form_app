@@ -39,7 +39,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
 
         public bool update(MusteriDetayDTO entity)
         {
-            throw new NotImplementedException();
+            MUSTERI musteri = new MUSTERI();
+            musteri.ID = entity.ID;
+            musteri.MusterAd = entity.MusteriAd;
+            return dao.Update(musteri);
         }
     }
 }

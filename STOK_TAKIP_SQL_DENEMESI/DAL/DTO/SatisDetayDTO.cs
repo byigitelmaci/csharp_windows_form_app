@@ -8,11 +8,11 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DTO
 {
     public class SatisDetayDTO
     {
-        public int UrunAd { get; set; }
+        public string UrunAd { get; set; }
         public string MusteriAd { get; set; }
-        public int KategoriAd { get; set; }
+        public string KategoriAd { get; set; }
         public int Fiyat { get; set; }
-        public int SatisTarihi { get; set; }
+        public DateTime SatisTarihi { get; set; }
         public int SatisMiktar { get; set; }
         public int StokMiktar { get; set; }
         public int SatisID { get; set; }

@@ -18,10 +18,12 @@ namespace STOK_TAKIP_SQL_DENEMESI
         {
             InitializeComponent();
         }
-
+        public MusteriDetayDTO detaydto = new MusteriDetayDTO();
+        public bool isupdate = false;
         private void FrmMusteri_Load(object sender, EventArgs e)
         {
-
+            if (isupdate)
+                txtMüşteriAdı.Text = detaydto.MusteriAd;
         }
 
         private void btnKapat_Click(object sender, EventArgs e)
@@ -36,11 +38,30 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 MessageBox.Show("Müşteri Adı Boş");
             else
             {
-                detay.MusteriAd = txtMüşteriAdı.Text;
-                if (bll.insert(detay))
+
+                if (isupdate)
                 {
-                    MessageBox.Show("Müşteri Eklendi");
-                    txtMüşteriAdı.Clear();
+                    if(detay.MusteriAd == txtMüşteriAdı.Text)
+                        MessageBox.Show("Değişiklik Yok");
+                    else
+                    {
+                        detaydto.MusteriAd = txtMüşteriAdı.Text;
+                        if (bll.update(detaydto))
+                        {
+                            MessageBox.Show("Güncellendi");
+                            this.Close();
+                        }
+
+                    }
+                }
+                else
+                {
+                    detay.MusteriAd = txtMüşteriAdı.Text;
+                    if (bll.insert(detay))
+                    {
+                        MessageBox.Show("Müşteri Eklendi");
+                        txtMüşteriAdı.Clear();
+                    }
                 }
             }
         }

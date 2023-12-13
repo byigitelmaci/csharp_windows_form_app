@@ -28,16 +28,42 @@ namespace STOK_TAKIP_SQL_DENEMESI
         {
             if(txtKategoriAd.Text.Trim()=="")
                 MessageBox.Show("Kategori Boş");
+            
             else
             {
-                KategoriDetayDTO detay = new KategoriDetayDTO();
-                detay.KategoriAd = txtKategoriAd.Text;
-                if(bll.insert(detay))
+                if (isupdate)
                 {
-                    MessageBox.Show("Eklendi");
-                    txtKategoriAd.Clear();  
+                    if (detay.KategoriAd == txtKategoriAd.Text)
+                        MessageBox.Show("Değişiklik Yok");
+                    else
+                    {
+                        detay.KategoriAd = txtKategoriAd.Text;
+                        if (bll.update(detay))
+                        {
+                            MessageBox.Show("Güncellendi");
+                            this.Close();
+                        }
+                    }
+                }
+                else
+                {
+                    KategoriDetayDTO detay = new KategoriDetayDTO();
+                    detay.KategoriAd = txtKategoriAd.Text;
+                    if (bll.insert(detay))
+                    {
+                        MessageBox.Show("Eklendi");
+                        txtKategoriAd.Clear();
+                    }
                 }
             }
+        }
+        public KategoriDetayDTO detay = new KategoriDetayDTO();
+        public bool isupdate = false;
+        private void FrmKategori_Load(object sender, EventArgs e)
+        {
+            if (isupdate)
+                txtKategoriAd.Text = detay.KategoriAd;
+
         }
     }
 }

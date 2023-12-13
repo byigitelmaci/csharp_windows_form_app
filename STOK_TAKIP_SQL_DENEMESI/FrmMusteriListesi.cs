@@ -26,6 +26,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
         private void btnEkle_Click(object sender, EventArgs e)
         {
             FrmMusteri frm = new FrmMusteri();
+            frm.isupdate = false;
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
@@ -35,6 +36,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
 
         MusteriDTO dto = new MusteriDTO();
         MusteriBLL bll = new MusteriBLL();
+        MusteriDetayDTO detay = new MusteriDetayDTO();
         private void FrmMusteriListesi_Load(object sender, EventArgs e)
         {
             dto = bll.Select();
@@ -42,7 +44,30 @@ namespace STOK_TAKIP_SQL_DENEMESI
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[1].HeaderText = "Müşteri Adı";
         }
-        
-        
+
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detay.ID= Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
+            detay.MusteriAd = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+
+        }
+
+        private void btnGüncelle_Click(object sender, EventArgs e)
+        {
+            if(detay.ID== 0)
+                MessageBox.Show("Müşteri Seçiniz");
+            else
+            {
+                FrmMusteri frm = new FrmMusteri();
+                frm.isupdate = true;
+                frm.detaydto = detay;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                bll = new MusteriBLL();
+                dto = bll.Select();
+                dataGridView1.DataSource= dto.Musteriler;
+            }
+        }
     }
 }

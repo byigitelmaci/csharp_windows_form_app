@@ -59,7 +59,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
         public bool Update(MUSTERI entity)
         {
-            throw new NotImplementedException();
+            MUSTERI mm = db.MUSTERI.First(x=> x.ID == entity.ID);
+            mm.MusterAd = entity.MusterAd;
+            db.SaveChanges();
+            return true;
         }
     }
 }

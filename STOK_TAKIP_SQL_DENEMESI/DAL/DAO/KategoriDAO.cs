@@ -1,6 +1,7 @@
 ﻿using STOK_TAKIP_SQL_DENEMESI.DAL.DTO;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Metadata.Edm;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -58,7 +59,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
         public bool Update(KATEGORI entity)
         {
-            throw new NotImplementedException();
+            KATEGORI kt = db.KATEGORI.First(x=>x.ID == entity.ID);  
+            kt.KategoriAd=entity.KategoriAd;
+            db.SaveChanges();
+            return true;
         }
     }
 }

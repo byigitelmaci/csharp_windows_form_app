@@ -93,7 +93,44 @@ namespace STOK_TAKIP_SQL_DENEMESI
             detay.StokMiktar = Convert.ToInt32(gridUrunler.Rows[e.RowIndex].Cells[3].Value);
             detay.KategoriID = Convert.ToInt32(gridUrunler.Rows[e.RowIndex].Cells[5].Value);
             detay.UrunAd = gridUrunler.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txtStok.Text = detay.StokMiktar.ToString();
+            txtUrunAdı.Text=detay.UrunAd.ToString();
+            txtUrunfiyatı.Text = detay.Fiyat.ToString();
+
+
             
+        }
+
+        private void gridMusteriler_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detay.MusteriID = Convert.ToInt32(gridMusteriler.Rows[e.RowIndex].Cells[0].Value);
+            detay.MusteriAd = gridMusteriler.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txtMüşteri.Text = detay.MusteriAd;
+        }
+        SatisBLL bll = new SatisBLL();
+        private void btnKaydet_Click(object sender, EventArgs e)
+        {
+            if (detay.UrunID==0)
+                MessageBox.Show("Ürün Seçiniz");
+            else if ( detay.MusteriID ==0)
+                MessageBox.Show("Müşteri Seçiniz");
+            else if (txtSatisMiktar.Text.Trim()=="")
+                MessageBox.Show("Lütfen Satış Miktarı Giriniz");
+            else if ( detay.StokMiktar<=Convert.ToInt32(txtSatisMiktar.Text))
+                MessageBox.Show("Yeterli Stok Yok");
+            else
+            {
+                detay.SatisMiktar = Convert.ToInt32(txtSatisMiktar.Text);
+                if (bll.insert(detay))
+                {
+                    MessageBox.Show("Eklendi");
+                    txtSatisMiktar.Clear();
+                    dto = bll.Select();
+                    gridUrunler.DataSource = dto.Urunler;
+                }
+
+            }
+
         }
     }
 }

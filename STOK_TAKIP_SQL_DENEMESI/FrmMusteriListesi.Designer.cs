@@ -84,6 +84,7 @@
             this.btnGüncelle.TabIndex = 13;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.UseVisualStyleBackColor = true;
+            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // btnEkle
             // 
@@ -135,6 +136,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(838, 297);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // FrmMusteriListesi
             // 

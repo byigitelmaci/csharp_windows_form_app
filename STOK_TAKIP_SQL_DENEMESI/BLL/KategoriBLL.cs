@@ -39,7 +39,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
 
         public bool update(KategoriDetayDTO entity)
         {
-            throw new NotImplementedException();
+            KATEGORI kt = new KATEGORI();
+            kt.ID = entity.ID;
+            kt.KategoriAd = entity.KategoriAd;
+            return dao.Update(kt);
         }
     }
 }
