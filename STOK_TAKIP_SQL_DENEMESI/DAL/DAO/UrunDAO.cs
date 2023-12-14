@@ -71,6 +71,12 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
                 { 
                     urun.Stok = entity.Stok;
                 }
+                else
+                {
+                    urun.KategoriID=entity.KategoriID;
+                    urun.UrunAd=entity.UrunAd;
+                    urun.Fiyat =entity.Fiyat;
+                }
                 db.SaveChanges();
                 return true;
             }
@@ -79,6 +85,14 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
                 throw ex;
             }
+        }
+
+        internal void stokguncelle(SatisDetayDTO entity)
+        {
+            URUN urun = db.URUN.First(x => x.ID == entity.UrunID);
+            int temp = urun.Stok + entity.SatisMiktar;
+            urun.Stok = temp;
+            db.SaveChanges();
         }
     }
 }

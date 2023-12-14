@@ -19,7 +19,11 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
         SatisDAO dao  = new SatisDAO(); 
          public bool Delete(SatisDetayDTO entity)
         {
-            throw new NotImplementedException();
+            SATIM satis = new SATIM();
+            satis.ID = entity.SatisID;
+            dao.Delete(satis);
+            urunDAO.stokguncelle(entity);
+            return true;
         }
 
         public bool GetBack(int TableID, SatisDetayDTO entity)
@@ -59,7 +63,17 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
 
         public bool update(SatisDetayDTO entity)
         {
-            throw new NotImplementedException();
+            SATIM satis = new SATIM();
+            satis.SatisMiktar = entity.SatisMiktar;
+            satis.ID = entity.SatisID;
+            dao.Update(satis);
+            int temp = entity.StokMiktar;
+            URUN urun = new URUN();
+            urun.Stok = entity.StokMiktar - (entity.SatisMiktar-temp);
+            urun.ID=entity.UrunID;
+            urunDAO.Update(urun);
+
+            return true;
         }
     }
 }

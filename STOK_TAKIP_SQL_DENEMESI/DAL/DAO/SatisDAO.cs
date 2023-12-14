@@ -12,7 +12,11 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
     {
         public bool Delete(SATIM entity)
         {
-            throw new NotImplementedException();
+            SATIM satis = db.SATIM.First(x=> x.ID == entity.ID);
+            satis.isDeleted = true;
+            satis.DeletedDate = DateTime.Today;
+            db.SaveChanges();
+            return true;
         }
 
         public bool GetBack(int ID)
@@ -40,7 +44,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
             try
             {
                 List<SatisDetayDTO> liste = new List<SatisDetayDTO>();
-                var list = (from s in db.SATIM
+                var list = (from s in db.SATIM.Where(x=>x.isDeleted == false)   
                             join u in db.URUN on s.UrunID equals u.ID
                             join k in db.KATEGORI on s.KategoriID equals k.ID
                             join m in db.MUSTERI on s.MusteriID equals m.ID
@@ -89,7 +93,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
         public bool Update(SATIM entity)
         {
-            throw new NotImplementedException();
+            SATIM ss = db.SATIM.First(x=> x.ID == entity.ID);
+            ss.SatisMiktar = entity.SatisMiktar;
+            db.SaveChanges();
+            return true;
         }
     }
 }

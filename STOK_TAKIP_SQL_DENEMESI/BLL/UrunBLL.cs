@@ -52,6 +52,13 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
                 urun.Stok = entity.StokMiktar;
 
             }
+            else
+            {
+                urun.ID = entity.ID;
+                urun.Fiyat = entity.Fiyat;
+                urun.KategoriID= entity.KategoriID;
+                urun.UrunAd= entity.UrunAd; 
+            }
             return dao.Update(urun);
         }
     }

@@ -36,26 +36,41 @@ namespace STOK_TAKIP_SQL_DENEMESI
             { e.Handled = true; }
         }
         public SatisDTO dto = new SatisDTO();
+        public SatisDetayDTO detaydto = new SatisDetayDTO();  
+        public bool isupdate = false;
         private void FrmSatış_Load(object sender, EventArgs e)
         {
-            gridMusteriler.DataSource = dto.Musteriler;
-            gridMusteriler.Columns[0].Visible = false;
-            gridMusteriler.Columns[1].HeaderText= "Müşteri Adı";
-            gridUrunler.DataSource = dto.Urunler;
-            gridUrunler.Columns[0].Visible = false;
-            gridUrunler.Columns[5].Visible = false;
-            gridUrunler.Columns[6].Visible = false;
-            gridUrunler.Columns[3].Visible = false;
-            gridUrunler.Columns[4].Visible = false;
-            gridUrunler.Columns[1].HeaderText= "Ürün Adı";
-            gridUrunler.Columns[2].HeaderText = "Kategori";
-            cmbKategori.DataSource = dto.Kategoriler;
-            cmbKategori.DisplayMember = "KategoriAd";
-            cmbKategori.ValueMember = "ID";
-            cmbKategori.SelectedIndex = -1;
-            if (dto.Kategoriler.Count > 0)
-                combofull = true;
+            if (isupdate)
+            {
+                panel1.Visible = false;
+                txtMüşteri.Text = detaydto.MusteriAd;
+                txtUrunAdı.Text = detaydto.UrunAd;
+                txtUrunfiyatı.Text = detaydto.Fiyat.ToString();
+                List<UrunDetayDTO> urunler = dto.Urunler;
+                UrunDetayDTO urun = urunler.First(x => x.ID == detaydto.UrunID);
+                txtStok.Text = urun.StokMiktar.ToString();
 
+            }
+            else
+            {
+                gridMusteriler.DataSource = dto.Musteriler;
+                gridMusteriler.Columns[0].Visible = false;
+                gridMusteriler.Columns[1].HeaderText = "Müşteri Adı";
+                gridUrunler.DataSource = dto.Urunler;
+                gridUrunler.Columns[0].Visible = false;
+                gridUrunler.Columns[5].Visible = false;
+                gridUrunler.Columns[6].Visible = false;
+                gridUrunler.Columns[3].Visible = false;
+                gridUrunler.Columns[4].Visible = false;
+                gridUrunler.Columns[1].HeaderText = "Ürün Adı";
+                gridUrunler.Columns[2].HeaderText = "Kategori";
+                cmbKategori.DataSource = dto.Kategoriler;
+                cmbKategori.DisplayMember = "KategoriAd";
+                cmbKategori.ValueMember = "ID";
+                cmbKategori.SelectedIndex = -1;
+                if (dto.Kategoriler.Count > 0)
+                    combofull = true;
+            }
 
 
 
@@ -110,25 +125,56 @@ namespace STOK_TAKIP_SQL_DENEMESI
         SatisBLL bll = new SatisBLL();
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            if (detay.UrunID==0)
-                MessageBox.Show("Ürün Seçiniz");
-            else if ( detay.MusteriID ==0)
-                MessageBox.Show("Müşteri Seçiniz");
-            else if (txtSatisMiktar.Text.Trim()=="")
+            
+            if (txtSatisMiktar.Text.Trim()=="")
                 MessageBox.Show("Lütfen Satış Miktarı Giriniz");
-            else if ( detay.StokMiktar<=Convert.ToInt32(txtSatisMiktar.Text))
-                MessageBox.Show("Yeterli Stok Yok");
+          
             else
             {
-                detay.SatisMiktar = Convert.ToInt32(txtSatisMiktar.Text);
-                if (bll.insert(detay))
+                if (isupdate)
                 {
-                    MessageBox.Show("Eklendi");
-                    txtSatisMiktar.Clear();
-                    dto = bll.Select();
-                    gridUrunler.DataSource = dto.Urunler;
-                }
+                    if (detay.StokMiktar <= Convert.ToInt32(txtSatisMiktar.Text))
+                        MessageBox.Show("Yeterli Stok Yok");
+                    else
+                    {
+                        int temp = detaydto.SatisMiktar + Convert.ToInt32(txtStok.Text);
+                        if (temp < Convert.ToInt32(txtSatisMiktar.Text))
+                            MessageBox.Show("Elinizde Yeterli Stok Yok");
+                        else
+                        {
+                            detaydto.SatisMiktar = Convert.ToInt32(txtSatisMiktar.Text);
+                            detaydto.StokMiktar = Convert.ToInt32(txtStok.Text);
+                            if (bll.update(detaydto))
+                            {
+                                MessageBox.Show("Güncellendi");
+                                this.Close();
+                            }
+                        }
+                    }
 
+                }
+                else
+                {
+                    if (detay.UrunID == 0)
+                        MessageBox.Show("Ürün Seçiniz");
+                    else if (detay.MusteriID == 0)
+                        MessageBox.Show("Müşteri Seçiniz");
+
+                    else if (detay.StokMiktar <= Convert.ToInt32(txtSatisMiktar.Text))
+                        MessageBox.Show("Yeterli Stok Yok");
+                    else
+                    {
+                        detay.SatisMiktar = Convert.ToInt32(txtSatisMiktar.Text);
+                        if (bll.insert(detay))
+                        {
+                            MessageBox.Show("Eklendi");
+                            txtSatisMiktar.Clear();
+                            dto = bll.Select();
+                            gridUrunler.DataSource = dto.Urunler;
+                        }
+                    }
+                   
+                }
             }
 
         }

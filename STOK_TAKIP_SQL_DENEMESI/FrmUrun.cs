@@ -30,12 +30,20 @@ namespace STOK_TAKIP_SQL_DENEMESI
             { e.Handled = true; }
         }
         public UrunDTO dto = new UrunDTO(); 
+        public UrunDetayDTO detaydto = new UrunDetayDTO();
+        public bool isupdate = false; 
         private void FrmUrun_Load(object sender, EventArgs e)
         {
             cmbKategori.DataSource = dto.Kategoriler;
             cmbKategori.DisplayMember = "KategoriAd";
             cmbKategori.ValueMember = "ID";
             cmbKategori.SelectedIndex = -1;
+            if (isupdate)
+            {
+                txtUrunAdı.Text = detaydto.UrunAd;
+                txtUrunfiyatı.Text=detaydto.Fiyat.ToString();
+                cmbKategori.SelectedValue = detaydto.KategoriID;
+            }
         }
         UrunBLL bll = new UrunBLL();
         UrunDetayDTO detay = new UrunDetayDTO();
@@ -49,16 +57,39 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 MessageBox.Show("Kategori Seçiniz");
             else
             {
-                detay.UrunAd = txtUrunAdı.Text;
-                detay.Fiyat = Convert.ToInt32(txtUrunfiyatı.Text);
-                detay.KategoriID = Convert.ToInt32(cmbKategori.SelectedValue);
-                if(bll.insert(detay))
+                if (isupdate)
                 {
-                    MessageBox.Show("Ürün Eklendi");
-                    txtUrunAdı.Clear();
-                    txtUrunfiyatı.Clear();
-                    cmbKategori.SelectedIndex = -1;
+                    if(detaydto.UrunAd ==txtUrunAdı.Text&&detaydto.KategoriID == Convert.ToInt32 (cmbKategori.SelectedValue) &&
+                        detaydto.Fiyat == Convert.ToInt32(txtUrunfiyatı.Text))
+                        MessageBox.Show("Değişiklik Yok");
+                    else
+                    {
+                        detaydto.UrunAd = txtUrunAdı.Text;
+                        detaydto.KategoriID=Convert.ToInt32 (cmbKategori.SelectedValue);
+                        detaydto.Fiyat = Convert.ToInt32(txtUrunfiyatı.Text);
+                        if (bll.update(detaydto))
+                        {
+                            MessageBox.Show("Güncellendi");
+                            this.Close();
+                        }
+                    }
                 }
+                
+                else
+                {
+                    detay.UrunAd = txtUrunAdı.Text;
+                    detay.Fiyat = Convert.ToInt32(txtUrunfiyatı.Text);
+                    detay.KategoriID = Convert.ToInt32(cmbKategori.SelectedValue);
+
+                    if (bll.insert(detay))
+                    {
+                        MessageBox.Show("Ürün Eklendi");
+                        txtUrunAdı.Clear();
+                        txtUrunfiyatı.Clear();
+                        cmbKategori.SelectedIndex = -1;
+                    }
+                }
+                
             }
         }
     }
