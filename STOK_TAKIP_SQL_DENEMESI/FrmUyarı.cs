@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using STOK_TAKIP_SQL_DENEMESI.BLL;
 using STOK_TAKIP_SQL_DENEMESI.DAL.DTO;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace STOK_TAKIP_SQL_DENEMESI
 {
@@ -32,7 +31,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
         private void FrmUyarı_Load(object sender, EventArgs e)
         {
             dto = bll.Select();
-            dto.Urunler = dto.Urunler.Where(x => x.StokMiktar<=1000).ToList();
+            dto.Urunler = dto.Urunler.Where(x => x.StokMiktar<=50).ToList();
             if (dto.Urunler.Count==0)
             {
                 FrmMain frm = new FrmMain();
@@ -47,7 +46,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
             dataGridView1.Columns[1].HeaderText = "ürün adı";
             dataGridView1.Columns[2].HeaderText = "kategori";
             dataGridView1.Columns[3].HeaderText = "stok miktarı";
-            dataGridView1.Columns[4].HeaderText = "ürün miktarı";
+            dataGridView1.Columns[4].HeaderText = "ürün fiyatı ";
 
             
         }

@@ -37,7 +37,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             satis.UrunID = entity.UrunID;
             satis.MusteriID = entity.MusteriID;
             satis.SatisMiktar = entity.SatisMiktar;
-            satis.SatisTarihi = entity.SatisTarihi;
+            satis.SatisTarihi = DateTime.Today;
             satis.SatisFiyat = entity.Fiyat;
             satis.KategoriID = entity.KategoriID;
             dao.Insert(satis);

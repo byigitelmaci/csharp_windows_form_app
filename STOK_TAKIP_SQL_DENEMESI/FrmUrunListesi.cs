@@ -62,7 +62,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
             dataGridView1.Columns[1].HeaderText = "ürün adı";
             dataGridView1.Columns[2].HeaderText = "kategori";
             dataGridView1.Columns[3].HeaderText = "stok miktarı";
-            dataGridView1.Columns[4].HeaderText = "ürün miktarı";
+            dataGridView1.Columns[4].HeaderText = "ürün Fiyatı";
 
 
         }

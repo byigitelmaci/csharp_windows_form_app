@@ -109,7 +109,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
             detay.KategoriID = Convert.ToInt32(gridUrunler.Rows[e.RowIndex].Cells[5].Value);
             detay.UrunAd = gridUrunler.Rows[e.RowIndex].Cells[1].Value.ToString();
             txtStok.Text = detay.StokMiktar.ToString();
-            txtUrunAdı.Text=detay.UrunAd.ToString();
+            txtUrunAdı.Text=detay.UrunAd;
             txtUrunfiyatı.Text = detay.Fiyat.ToString();
 
 
@@ -119,7 +119,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
         private void gridMusteriler_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             detay.MusteriID = Convert.ToInt32(gridMusteriler.Rows[e.RowIndex].Cells[0].Value);
-            detay.MusteriAd = gridMusteriler.Rows[e.RowIndex].Cells[0].Value.ToString();
+            detay.MusteriAd = gridMusteriler.Rows[e.RowIndex].Cells[1].Value.ToString();
             txtMüşteri.Text = detay.MusteriAd;
         }
         SatisBLL bll = new SatisBLL();
