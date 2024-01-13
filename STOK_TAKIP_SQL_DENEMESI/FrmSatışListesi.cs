@@ -103,9 +103,9 @@ namespace STOK_TAKIP_SQL_DENEMESI
             if (rbsEşit.Checked)
                 list = list.Where(x => x.SatisMiktar == Convert.ToInt32(txtsatışmiktarı.Text)).ToList();
             if (chtarih.Checked)
-                list = list.Where(x=> x.SatisTarihi >dpBaslamaTarihi.Value && x.SatisTarihi <dpBitisTarihi.Value).ToList();
+                list = list.Where(x=> x.SatisTarihi > dpBaslamaTarihi.Value && x.SatisTarihi < dpBitisTarihi.Value).ToList();
             dataGridView1.DataSource = list;
-        }
+        }      
 
         private void btnTemizle_Click(object sender, EventArgs e)
         {

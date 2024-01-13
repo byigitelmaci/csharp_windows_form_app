@@ -44,7 +44,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
             try
             {
                 List<SatisDetayDTO> liste = new List<SatisDetayDTO>();
-                var list = (from s in db.SATIM.Where(x=>x.isDeleted == false)   
+                var list = (from s in db.SATIM  
                             join u in db.URUN on s.UrunID equals u.ID
                             join k in db.KATEGORI on s.KategoriID equals k.ID
                             join m in db.MUSTERI on s.MusteriID equals m.ID
@@ -75,7 +75,6 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
                     dTO.StokMiktar = item.stok;
                     dTO.SatisID = item.satisID;
                     dTO.UrunID = item.urunID;
-                    dTO.SatisID = item.satisID;
                     dTO.MusteriID = item.musteriID;
                     dTO.KategoriID = item.kategoriID;
                     liste.Add(dTO);

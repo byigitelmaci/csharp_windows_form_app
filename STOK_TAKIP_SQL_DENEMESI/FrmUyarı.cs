@@ -39,6 +39,12 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 frm.ShowDialog();
 
             }
+            else
+            {
+                FrmMain frm = new FrmMain();
+                this.Visible = false;
+                frm.ShowDialog();
+            }
             dataGridView1.DataSource = dto.Urunler;
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[5].Visible = false;
