@@ -9,7 +9,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DTO
 {
     public class UrunDTO
     {
-        public List<UrunDetayDTO> Urunler {get; set;}
+        public List<UrunDetayDTO> Urunler {get; set; }
         public List<KategoriDetayDTO> Kategoriler { get; set; }
     }
 }

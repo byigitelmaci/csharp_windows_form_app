@@ -14,10 +14,16 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
     {
         KategoriDAO kategoriDAO= new KategoriDAO();
         UrunDAO dao = new UrunDAO();
-
+        SatisDAO satisdao = new SatisDAO();
         public bool Delete(UrunDetayDTO entity)
         {
-            throw new NotImplementedException();
+            URUN urun = new URUN();
+            urun.ID = entity.ID;
+            dao.Delete(urun);
+            SATIM satis = new SATIM();
+            satis.ID = entity.ID;  
+            satisdao.Delete(satis);
+            return true;
         }
 
         public bool GetBack(int TableID, UrunDetayDTO entity)

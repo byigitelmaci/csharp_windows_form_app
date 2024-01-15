@@ -39,7 +39,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
         {
             try
             {
-                var list = db.KATEGORI;
+                var list = db.KATEGORI.Where(x=>x.isDeleted==false);
                 List<KategoriDetayDTO> liste = new List<KategoriDetayDTO>();
                 foreach (var item in list)
                 {
@@ -56,7 +56,27 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
                 throw ex;
             }
         }
+        public List<KategoriDetayDTO> select(bool deleted)
+        {
+            try
+            {
+                var list = db.KATEGORI.Where(x => x.isDeleted == deleted);
+                List<KategoriDetayDTO> liste = new List<KategoriDetayDTO>();
+                foreach (var item in list)
+                {
+                    KategoriDetayDTO dto = new KategoriDetayDTO();
+                    dto.ID = item.ID;
+                    dto.KategoriAd = item.KategoriAd;
+                    liste.Add(dto);
+                }
+                return liste;
+            }
+            catch (Exception ex)
+            {
 
+                throw ex;
+            }
+        }
         public bool Update(KATEGORI entity)
         {
             KATEGORI kt = db.KATEGORI.First(x=>x.ID == entity.ID);  

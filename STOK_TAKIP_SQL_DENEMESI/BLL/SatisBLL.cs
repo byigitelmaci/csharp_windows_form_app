@@ -60,7 +60,15 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             dto.Satislar = dao.select();
             return dto;
         }
-
+        public SatisDTO Select(bool deleted)
+        {
+            SatisDTO dto = new SatisDTO();
+            dto.Kategoriler = kategoridao.select(deleted);
+            dto.Musteriler = musteridao.select(deleted);
+            dto.Urunler = urunDAO.select(deleted);
+            dto.Satislar = dao.select(deleted);
+            return dto;
+        }
         public bool update(SatisDetayDTO entity)
         {
             SATIM satis = new SATIM();

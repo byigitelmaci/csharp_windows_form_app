@@ -39,13 +39,35 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
             try
             {
                 List<MusteriDetayDTO> liste = new List<MusteriDetayDTO>();
-                var list=db.MUSTERI;
+                var list=db.MUSTERI.Where(x=>x.isDeleted==false);
                 foreach (var item in list)
                 {
                     MusteriDetayDTO dto = new MusteriDetayDTO();
                     dto.ID = item.ID;
                     dto.MusteriAd = item.MusterAd;
                     liste.Add(dto); 
+                }
+                return liste;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
+        public List<MusteriDetayDTO> select(bool deleted)
+        {
+            try
+            {
+                List<MusteriDetayDTO> liste = new List<MusteriDetayDTO>();
+                var list = db.MUSTERI.Where(x => x.isDeleted == deleted);
+                foreach (var item in list)
+                {
+                    MusteriDetayDTO dto = new MusteriDetayDTO();
+                    dto.ID = item.ID;
+                    dto.MusteriAd = item.MusterAd;
+                    liste.Add(dto);
                 }
                 return liste;
             }

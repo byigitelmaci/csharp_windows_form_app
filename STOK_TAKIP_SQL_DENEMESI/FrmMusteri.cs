@@ -41,7 +41,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
 
                 if (isupdate)
                 {
-                    if(detay.MusteriAd == txtMüşteriAdı.Text)
+                    if(detaydto.MusteriAd == txtMüşteriAdı.Text)
                         MessageBox.Show("Değişiklik Yok");
                     else
                     {

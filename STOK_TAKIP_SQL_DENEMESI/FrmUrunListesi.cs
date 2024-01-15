@@ -138,5 +138,27 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 dataGridView1.DataSource = dto.Urunler;
             }
         }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            if(detayDTO.ID== 0)
+                MessageBox.Show("Seçim Yapın");
+            DialogResult result = MessageBox.Show("Silinsin mi?", "Dikkat", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                if (bll.Delete(detayDTO))
+                {
+                    MessageBox.Show("Silindi");
+                    bll = new UrunBLL();
+                    dto = bll.Select();
+                    dataGridView1.DataSource=dto.Urunler;
+                }
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

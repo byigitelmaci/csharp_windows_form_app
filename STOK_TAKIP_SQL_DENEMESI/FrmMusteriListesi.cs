@@ -69,5 +69,10 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 dataGridView1.DataSource= dto.Musteriler;
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
