@@ -86,7 +86,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 MessageBox.Show("Stok Miktarı Giriniz");
             else
             {
-                detay.isStokEkle = true;
+                detay.isKategoriDeleted = true;
                 int toplam = detay.StokMiktar;
                 toplam += Convert.ToInt32(txtUrünStok.Text);
                 detay.StokMiktar = toplam;

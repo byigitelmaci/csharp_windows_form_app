@@ -16,7 +16,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
         public bool GetBack(int ID)
         {
-            throw new NotImplementedException();
+            MUSTERI mm = db.MUSTERI.First(x => x.ID == ID); 
+            mm.isDeleted = false;
+            db.SaveChanges();
+            return true;
         }
 
         public bool Insert(MUSTERI entity)

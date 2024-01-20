@@ -21,14 +21,14 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             urun.ID = entity.ID;
             dao.Delete(urun);
             SATIM satis = new SATIM();
-            satis.ID = entity.ID;  
+            satis.UrunID = entity.ID;  
             satisdao.Delete(satis);
             return true;
         }
 
-        public bool GetBack(int TableID, UrunDetayDTO entity)
+        public bool GetBack( UrunDetayDTO entity)
         {
-            throw new NotImplementedException();
+                return dao.GetBack(entity.ID);
         }
 
         public bool insert(UrunDetayDTO entity)
@@ -52,7 +52,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
         public bool update(UrunDetayDTO entity)
         {
             URUN urun =new URUN();
-            if (entity.isStokEkle)
+            if (entity.isKategoriDeleted)
             {
                 urun.ID = entity.ID;
                 urun.Stok = entity.StokMiktar;

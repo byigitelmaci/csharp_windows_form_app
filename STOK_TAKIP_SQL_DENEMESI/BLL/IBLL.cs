@@ -13,7 +13,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
 
         K Select();
         bool Delete(T entity);
-        bool GetBack(int TableID,T entity);
+        bool GetBack(T entity);
 
     }
 }

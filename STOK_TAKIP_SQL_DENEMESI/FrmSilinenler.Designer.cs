@@ -70,6 +70,7 @@
             this.btnGeriGetir.TabIndex = 16;
             this.btnGeriGetir.Text = "Geri Getir";
             this.btnGeriGetir.UseVisualStyleBackColor = true;
+            this.btnGeriGetir.Click += new System.EventHandler(this.btnGeriGetir_Click);
             // 
             // panel1
             // 

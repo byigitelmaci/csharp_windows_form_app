@@ -12,12 +12,19 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
     {
         public bool Delete(KATEGORI entity)
         {
-            throw new NotImplementedException();
+            KATEGORI kk = db.KATEGORI.First(x=>x.ID== entity.ID);
+            kk.isDeleted = true;
+            kk.DeleteDate = DateTime.Now;
+            db.SaveChanges();
+            return true;
         }
 
         public bool GetBack(int ID)
         {
-            throw new NotImplementedException();
+            KATEGORI kk = db.KATEGORI.First(x => x.ID == ID);
+            kk.isDeleted = false;
+            db.SaveChanges();
+            return true;
         }
 
         public bool Insert(KATEGORI entity)

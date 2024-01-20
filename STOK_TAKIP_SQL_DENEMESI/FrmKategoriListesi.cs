@@ -74,5 +74,23 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 dataGridView1.DataSource = dto.Kategoriler;
             }
         }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            if (detay.ID==0)
+                MessageBox.Show("Kategori Seçin");
+            DialogResult result = MessageBox.Show("Silinsin mi","Dikkat",MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                if (bll.Delete(detay))
+                {
+                    MessageBox.Show("Silindi");
+                    bll = new KategoriBLL();
+                    dto = bll.Select();
+                    dataGridView1.DataSource= dto.Kategoriler; 
+
+                }
+            }
+        }
     }
 }

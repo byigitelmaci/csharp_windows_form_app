@@ -26,9 +26,15 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             return true;
         }
 
-        public bool GetBack(int TableID, SatisDetayDTO entity)
+        public bool GetBack( SatisDetayDTO entity)
         {
-            throw new NotImplementedException();
+            dao.GetBack(entity.SatisID);
+            URUN urun = new URUN();
+            urun.ID=entity.UrunID;
+            int temp = entity.StokMiktar + entity.SatisMiktar;
+            urun.Stok=temp;
+            urunDAO.Update(urun);
+            return true;
         }
 
         public bool insert(SatisDetayDTO entity)

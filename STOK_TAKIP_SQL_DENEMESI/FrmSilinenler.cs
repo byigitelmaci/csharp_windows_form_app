@@ -20,7 +20,7 @@ namespace STOK_TAKIP_SQL_DENEMESI
             InitializeComponent();
         }
         SatisDTO dto = new SatisDTO();
-        SatisBLL bll = new SatisBLL();  
+        SatisBLL bll = new SatisBLL();
 
         private void btnKapat_Click(object sender, EventArgs e)
         {
@@ -46,6 +46,9 @@ namespace STOK_TAKIP_SQL_DENEMESI
             dataGridView1.Columns[8].Visible = false;
             dataGridView1.Columns[9].Visible = false;
             dataGridView1.Columns[10].Visible = false;
+            dataGridView1.Columns[11].Visible = false;
+            dataGridView1.Columns[12].Visible = false;
+            dataGridView1.Columns[13].Visible = false;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -55,18 +58,19 @@ namespace STOK_TAKIP_SQL_DENEMESI
 
         private void cmbTablolar_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmbTablolar.SelectedIndex==0)
+            if (cmbTablolar.SelectedIndex == 0)
             {
                 dataGridView1.DataSource = dto.Kategoriler;
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.Columns[1].HeaderText = "Kategori Adı";
             }
-            else if (cmbTablolar.SelectedIndex==1)
+            else if (cmbTablolar.SelectedIndex == 1)
             {
-                dataGridView1.DataSource=dto.Urunler;
+                dataGridView1.DataSource = dto.Urunler;
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.Columns[5].Visible = false;
                 dataGridView1.Columns[6].Visible = false;
+                dataGridView1.Columns[7].Visible = false;
                 dataGridView1.Columns[1].HeaderText = "ürün adı";
                 dataGridView1.Columns[2].HeaderText = "kategori";
                 //dataGridView1.Columns[3].HeaderText = "stok miktarı";
@@ -92,12 +96,18 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 dataGridView1.Columns[8].Visible = false;
                 dataGridView1.Columns[9].Visible = false;
                 dataGridView1.Columns[10].Visible = false;
+                dataGridView1.Columns[11].Visible = false;
+                dataGridView1.Columns[12].Visible = false;
+                dataGridView1.Columns[13].Visible = false;
             }
         }
         SatisDetayDTO satis = new SatisDetayDTO();
         UrunDetayDTO urun = new UrunDetayDTO();
         KategoriDetayDTO kategori = new KategoriDetayDTO();
         MusteriDetayDTO musteri = new MusteriDetayDTO();
+        KategoriBLL kategoribll = new KategoriBLL();
+        UrunBLL urunbll = new UrunBLL();
+        MusteriBLL musteribll = new MusteriBLL();
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             if (cmbTablolar.SelectedIndex == 0)
@@ -111,7 +121,9 @@ namespace STOK_TAKIP_SQL_DENEMESI
                 urun.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
                 urun.Fiyat = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Value);
                 urun.KategoriID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[5].Value);
+                urun.isKategoriDeleted = Convert.ToBoolean(dataGridView1.Rows[e.RowIndex].Cells[7].Value);
             }
+
             else if (cmbTablolar.SelectedIndex == 2)
             {
                 musteri.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
@@ -130,5 +142,60 @@ namespace STOK_TAKIP_SQL_DENEMESI
             }
         }
 
+        private void btnGeriGetir_Click(object sender, EventArgs e)
+        {
+            if (cmbTablolar.SelectedIndex == 0)
+            {
+                if (kategoribll.GetBack(kategori))
+                {
+                    MessageBox.Show("Geri Geldi");
+                    bll = new SatisBLL();
+                    dto = bll.Select(true);
+                    dataGridView1.DataSource = dto.Kategoriler;
+                }
+            }
+            if (cmbTablolar.SelectedIndex == 1)
+            {
+                if (urunbll.GetBack(urun))
+                {
+                    if (urun.isKategoriDeleted)
+                        MessageBox.Show("Kategori silindi bu ürün artık geri getirilemez");
+                    else
+                    {
+
+                        MessageBox.Show("Geri Geldi");
+                        bll = new SatisBLL();
+                        dto = bll.Select(true);
+                        dataGridView1.DataSource = dto.Urunler;
+
+                    }
+                }
+            }
+            if (cmbTablolar.SelectedIndex == 2)
+            {
+                if (musteribll.GetBack(musteri))
+                {
+                    MessageBox.Show("Geri Geldi");
+                    bll = new SatisBLL();
+                    dto = bll.Select(true);
+                    dataGridView1.DataSource = dto.Musteriler;
+                }
+            }
+            if (cmbTablolar.SelectedIndex == 3)
+            {
+
+                if (bll.GetBack(satis))
+                {
+                    if (!satis.udeleted && !satis.kdeleted && !satis.mdeleted)
+                    {
+                        MessageBox.Show("Silinemez");
+                    }
+                    MessageBox.Show("Geri Geldi");
+                    bll = new SatisBLL();
+                    dto = bll.Select(true);
+                    dataGridView1.DataSource = dto.Satislar;
+                }
+            }
+        }
     }
 }

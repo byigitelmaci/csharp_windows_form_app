@@ -35,7 +35,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
 
         public bool GetBack(int ID)
         {
-            throw new NotImplementedException();
+            SATIM ss = db.SATIM.First(x=> x.ID==ID);
+            ss.isDeleted = false;
+            db.SaveChanges();
+            return true;
         }
 
         public bool Insert(SATIM entity)
@@ -125,6 +128,11 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
                                 urunID = s.UrunID,
                                 musteriID = s.MusteriID,
                                 kategoriID = s.KategoriID,
+                                kategordeleted=k.isDeleted,
+                                musterideleted=m.isDeleted,
+                                urundeleted=u.isDeleted,
+
+
 
                             }).OrderBy(x => x.satistarihi);
                 foreach (var item in list)
@@ -141,6 +149,10 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DAO
                     dTO.UrunID = item.urunID;
                     dTO.MusteriID = item.musteriID;
                     dTO.KategoriID = item.kategoriID;
+                    dTO.mdeleted = item.musterideleted;
+                    dTO.kdeleted = item.kategordeleted;
+                    dTO.udeleted = item.urundeleted;
+
                     liste.Add(dTO);
 
                 }

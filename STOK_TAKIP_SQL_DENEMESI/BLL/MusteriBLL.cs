@@ -17,9 +17,9 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             throw new NotImplementedException();
         }
 
-        public bool GetBack(int TableID, MusteriDetayDTO entity)
+        public bool GetBack( MusteriDetayDTO entity)
         {
-            throw new NotImplementedException();
+            return dao.GetBack(entity.ID);
         }
 
         public bool insert(MusteriDetayDTO entity)

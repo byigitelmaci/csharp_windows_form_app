@@ -12,14 +12,23 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
     internal class KategoriBLL : IBLL<KategoriDetayDTO, KategoriDTO>
     {
         KategoriDAO dao=new KategoriDAO();
+        UrunDAO urundao =new UrunDAO();
+
         public bool Delete(KategoriDetayDTO entity)
         {
-            throw new NotImplementedException();
+            KATEGORI kategori = new KATEGORI();
+            kategori.ID = entity.ID;
+            dao.Delete(kategori);
+            URUN urun = new URUN();
+            urun.KategoriID = entity.ID;
+            urundao.Delete(urun);
+            return true;
+
         }
 
-        public bool GetBack(int TableID, KategoriDetayDTO entity)
+        public bool GetBack( KategoriDetayDTO entity)
         {
-            throw new NotImplementedException();
+            return dao.GetBack(entity.ID);
         }
 
         public bool insert(KategoriDetayDTO entity)
