@@ -14,6 +14,6 @@ namespace STOK_TAKIP_SQL_DENEMESI.DAL.DTO
         public int StokMiktar { get; set;}
         public int Fiyat { get; set;} 
         public int KategoriID { get; set;} 
-         public bool isKategoriDeleted { get;set;}
+        public bool isKategoriDeleted { get;set;}
     }
 }

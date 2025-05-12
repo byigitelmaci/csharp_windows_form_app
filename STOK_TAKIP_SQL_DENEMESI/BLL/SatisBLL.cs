@@ -16,8 +16,8 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
         KategoriDAO kategoridao = new KategoriDAO();
         MusteriDAO musteridao = new MusteriDAO();
         UrunDAO urunDAO = new UrunDAO();
-        SatisDAO dao  = new SatisDAO(); 
-         public bool Delete(SatisDetayDTO entity)
+        SatisDAO dao = new SatisDAO();
+        public bool Delete(SatisDetayDTO entity)
         {
             SATIM satis = new SATIM();
             satis.ID = entity.SatisID;
@@ -26,13 +26,13 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             return true;
         }
 
-        public bool GetBack( SatisDetayDTO entity)
+        public bool GetBack(SatisDetayDTO entity)
         {
             dao.GetBack(entity.SatisID);
             URUN urun = new URUN();
-            urun.ID=entity.UrunID;
+            urun.ID = entity.UrunID;
             int temp = entity.StokMiktar + entity.SatisMiktar;
-            urun.Stok=temp;
+            urun.Stok = temp;
             urunDAO.Update(urun);
             return true;
         }
@@ -49,7 +49,7 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             dao.Insert(satis);
             URUN urun = new URUN();
             urun.ID = entity.UrunID;
-            int temp = entity.StokMiktar-entity.SatisMiktar;
+            int temp = entity.StokMiktar - entity.SatisMiktar;
             urun.Stok = temp;
             urunDAO.Update(urun);
 
@@ -83,8 +83,8 @@ namespace STOK_TAKIP_SQL_DENEMESI.BLL
             dao.Update(satis);
             int temp = entity.StokMiktar;
             URUN urun = new URUN();
-            urun.Stok = entity.StokMiktar - (entity.SatisMiktar-temp);
-            urun.ID=entity.UrunID;
+            urun.Stok = entity.StokMiktar - (entity.SatisMiktar - temp);
+            urun.ID = entity.UrunID;
             urunDAO.Update(urun);
 
             return true;

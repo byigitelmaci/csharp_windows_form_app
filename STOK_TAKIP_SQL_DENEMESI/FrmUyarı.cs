@@ -31,20 +31,17 @@ namespace STOK_TAKIP_SQL_DENEMESI
         private void FrmUyarı_Load(object sender, EventArgs e)
         {
             dto = bll.Select();
-            dto.Urunler = dto.Urunler.Where(x => x.StokMiktar<=50).ToList();
-            if (dto.Urunler.Count==0)
+            dto.Urunler = dto.Urunler.Where(x => x.StokMiktar<=100).ToList();
+            if (dto.Urunler.Count == 0)
             {
                 FrmMain frm = new FrmMain();
                 this.Visible = false;
                 frm.ShowDialog();
 
+
             }
-            else
-            {
-                FrmMain frm = new FrmMain();
-                this.Visible = false;
-                frm.ShowDialog();
-            }
+           
+
             dataGridView1.DataSource = dto.Urunler;
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[5].Visible = false;
@@ -52,8 +49,9 @@ namespace STOK_TAKIP_SQL_DENEMESI
             dataGridView1.Columns[1].HeaderText = "ürün adı";
             dataGridView1.Columns[2].HeaderText = "kategori";
             dataGridView1.Columns[3].HeaderText = "stok miktarı";
-            dataGridView1.Columns[4].HeaderText = "ürün fiyatı ";
+            dataGridView1.Columns[4].HeaderText = "Ürün Fiyatı";
 
+           
             
         }
     }

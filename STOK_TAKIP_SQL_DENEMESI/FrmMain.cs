@@ -1,4 +1,5 @@
-﻿using System;
+﻿using STOK_TAKIP_SQL_DENEMESI.DAL.DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using STOK_TAKIP_SQL_DENEMESI.DAL.DAO;
+
 
 namespace STOK_TAKIP_SQL_DENEMESI
 {
@@ -21,10 +24,12 @@ namespace STOK_TAKIP_SQL_DENEMESI
         {
 
         }
-
+        
+        UrunDTO dto = new UrunDTO();
         private void btnÇıkıs_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+           Application.Exit();
+           
         }
 
         private void btnMüşteriler_Click(object sender, EventArgs e)
